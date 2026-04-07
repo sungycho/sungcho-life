@@ -86,9 +86,16 @@ def scan_life_entries(content_dir):
         return entries
     for md_file in sorted(d.glob('*.md')):
         meta, _ = read_md(md_file)
+        full_title = meta.get('title', md_file.stem)
+        if ': ' in full_title:
+            date_range, movie_line = full_title.split(': ', 1)
+        else:
+            date_range, movie_line = full_title, None
         entries.append({
             'slug': md_file.stem,
-            'title': meta.get('title', md_file.stem),
+            'title': full_title,
+            'date_range': date_range,
+            'movie_line': movie_line,
             'start': meta.get('start', md_file.stem),
         })
     entries.sort(key=lambda e: e['start'])
@@ -120,8 +127,8 @@ def build_lang(lang):
         meta, html_body = read_md(md_path)
         out_file = out_root / 'life' / f"{entry['slug']}.html"
         render('essay.html', out_file,
-               title=entry['title'],
-               essay_title=entry['title'],
+               title=entry['date_range'],
+               essay_title=entry['date_range'],
                content=html_body,
                lang=nav_lang,
                page_slug=f"life/{entry['slug']}.html",
@@ -131,7 +138,7 @@ def build_lang(lang):
                custom_styles=None)
 
     # ── Simple pages ──────────────────────────────────────────────────────────
-    simple_pages = ['index', 'about', 'notes', 'books', 'courses']
+    simple_pages = ['index', 'about', 'notes', 'books', 'courses', 'misc']
     for page in simple_pages:
         md_path = content_dir / f'{page}.md'
         if not md_path.exists():
@@ -237,8 +244,8 @@ def build_kr_essays():
         md_path = content_dir / 'life' / f"{entry['slug']}.md"
         meta, html_body = read_md(md_path)
         render('essay.html', out_root / 'life' / f"{entry['slug']}.html",
-               title=entry['title'],
-               essay_title=entry['title'],
+               title=entry['date_range'],
+               essay_title=entry['date_range'],
                content=html_body,
                lang='kr',
                page_slug=f"life/{entry['slug']}.html",
