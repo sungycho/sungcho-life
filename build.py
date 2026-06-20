@@ -188,6 +188,29 @@ def build_lang(lang):
                include_accordion=False,
                custom_styles=None)
 
+    # ── Aphorism pages ────────────────────────────────────────────────────────
+    aphorism_url_prefix = '/aphorism/' if lang == 'en' else '/kr/aphorism/'
+    aphorisms = scan_entries(content_dir / 'aphorism', aphorism_url_prefix, lang)
+
+    for aphorism in aphorisms:
+        md_path = content_dir / 'aphorism' / f"{aphorism['slug']}.md"
+        meta, html_body = read_md(md_path)
+        out_file = out_root / 'aphorism' / f"{aphorism['slug']}.html"
+        page_slug = f"aphorism/{aphorism['slug']}.html"
+        aphorism_date = datetime.strptime(aphorism['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if aphorism.get('date') else ''
+
+        render('essay.html', out_file,
+               title=aphorism['title'],
+               essay_title=aphorism['title'],
+               essay_date=aphorism_date,
+               content=html_body,
+               lang=nav_lang,
+               page_slug=page_slug,
+               show_lang_toggle=True,
+               include_mathjax=False,
+               include_accordion=False,
+               custom_styles=None)
+
     # ── Paper pages ───────────────────────────────────────────────────────────
     paper_url_prefix = '/papers/' if lang == 'en' else '/kr/papers/'
     papers = scan_entries(content_dir / 'papers', paper_url_prefix, lang)
@@ -217,6 +240,16 @@ def build_lang(lang):
            entries_by_year=group_by_year(essays),
            lang=nav_lang,
            page_slug='essays.html',
+           show_lang_toggle=True,
+           include_mathjax=False,
+           include_accordion=False,
+           custom_styles=None)
+
+    render('list.html', out_root / 'aphorism.html',
+           title='Aphorism',
+           entries_by_year=group_by_year(aphorisms),
+           lang=nav_lang,
+           page_slug='aphorism.html',
            show_lang_toggle=True,
            include_mathjax=False,
            include_accordion=False,
@@ -274,11 +307,41 @@ def build_kr_essays():
                include_accordion=False,
                custom_styles=None)
 
+    aphorism_url_prefix = '/kr/aphorism/'
+    aphorisms = scan_entries(content_dir / 'aphorism', aphorism_url_prefix, 'kr')
+
+    for aphorism in aphorisms:
+        md_path = content_dir / 'aphorism' / f"{aphorism['slug']}.md"
+        meta, html_body = read_md(md_path)
+        out_file = out_root / 'aphorism' / f"{aphorism['slug']}.html"
+        aphorism_date = datetime.strptime(aphorism['date'], '%Y-%m-%d').strftime('%Y년 %-m월 %-d일') if aphorism.get('date') else ''
+        render('essay.html', out_file,
+               title=aphorism['title'],
+               essay_title=aphorism['title'],
+               essay_date=aphorism_date,
+               content=html_body,
+               lang='kr',
+               page_slug=f"aphorism/{aphorism['slug']}.html",
+               show_lang_toggle=True,
+               include_mathjax=False,
+               include_accordion=False,
+               custom_styles=None)
+
     render('list.html', out_root / 'essays.html',
            title='글',
            entries_by_year=group_by_year(essays),
            lang='kr',
            page_slug='essays.html',
+           show_lang_toggle=True,
+           include_mathjax=False,
+           include_accordion=False,
+           custom_styles=None)
+
+    render('list.html', out_root / 'aphorism.html',
+           title='아포리즘',
+           entries_by_year=group_by_year(aphorisms),
+           lang='kr',
+           page_slug='aphorism.html',
            show_lang_toggle=True,
            include_mathjax=False,
            include_accordion=False,

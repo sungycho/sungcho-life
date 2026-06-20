@@ -4,6 +4,9 @@ title: About
 
 Here're several virtues (in alphabetical order) I pursue in my life and related writeups
 
+
+- Life Statement
+
 - Agency
 - Alignment
 - Anti-gravity
