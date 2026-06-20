@@ -138,3 +138,6 @@ dist
 # personal
 .personal/
 
+
+# macOS
+.DS_Store
