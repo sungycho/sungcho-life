@@ -17,9 +17,13 @@ Hard Things on Hard Thing
 Principles
 당신은 사업가입니까?
 Accidental Superpower
+Credit Investing Handbook
+The Intel Trinity
+
 
 
 Quant
+Dark Pool
 군주론
 사피엔스
 총균쇠
