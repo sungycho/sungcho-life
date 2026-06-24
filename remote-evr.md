@@ -4,6 +4,13 @@ polymath
 renaissance man
 
 
+strategic, top-down view on business 
+vs.
+product-oriented, bottom-up view on business
+
+is like Newton vs. Quantum mechanics
+
+
 
 <Books I read>
 - Elon Musk
@@ -18,9 +25,7 @@ Principles
 당신은 사업가입니까?
 Accidental Superpower
 Credit Investing Handbook
-The Intel Trinity
-
-
+Why I left Goldman Sachs
 
 Quant
 Dark Pool
@@ -48,6 +53,7 @@ The Art of Doing Science and Engineering
 - Walden
 - Swimming Across
 - The Power Broker: Robert Moses and the Fall of New York
+- The Polymath: Unlocking the Power of Human Versatility
 
 
 
