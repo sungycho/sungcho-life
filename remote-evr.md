@@ -1,4 +1,25 @@
 
+Hi Shervin,
+
+Hope all is well. 
+
+Since it has been a month after our talk last time, I thought I reach out.
+
+Wonder how you've come in terms of the new topic?
+
+Would love to catch up and discuss what has come up and if there's anything i can help with.
+
+Also, you remember my paper I sent you last time? That one got into the workshop at ICML (link)! 
+
+Wonder if you're flying, but would be great to catch up in Seoul if you're there too. 
+
+Thanks, and looking forward!
+
+Best,
+Sung
+
+
+
 
 polymath
 renaissance man
