@@ -1,24 +1,7 @@
 
-Hi Shervin,
 
-Hope all is well. 
-
-Since it has been a month after our talk last time, I thought I reach out.
-
-Wonder how you've come in terms of the new topic?
-
-Would love to catch up and discuss what has come up and if there's anything i can help with.
-
-Also, you remember my paper I sent you last time? That one got into the workshop at ICML (link)! 
-
-Wonder if you're flying, but would be great to catch up in Seoul if you're there too. 
-
-Thanks, and looking forward!
-
-Best,
-Sung
-
-
+you need to measure something to start analyzing!
+often times, coming up with how to measure is a real change (Hubble Telescope, Shannon's Information Theory)
 
 
 polymath
@@ -75,10 +58,18 @@ The Art of Doing Science and Engineering
 - Swimming Across
 - The Power Broker: Robert Moses and the Fall of New York
 - The Polymath: Unlocking the Power of Human Versatility
-
+- The Information: A History, a Theory, a Flood
+- The Sovereign Individual: Mastering the Transition to the Information Age
+- A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
 
 
 <Books I don't like>
 - 부의 추월차선
 - Man's Search for meaning
 - 데일 카네
+
+
+<Write-ups>
+https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+
+https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf
