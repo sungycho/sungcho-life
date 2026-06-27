@@ -4,6 +4,12 @@ you need to measure something to start analyzing!
 often times, coming up with how to measure is a real change (Hubble Telescope, Shannon's Information Theory)
 
 
+analysis vs. build
+- 소설의 주제를 분석하고 정리한다고 해서 그 소설을 쓸 수 있는 것은 아니다
+- 언제 분석만이 충분하고 언제는 직접 쓸 수 있어야 하는가?
+- technical vs non technical founder
+
+
 polymath
 renaissance man
 
@@ -27,7 +33,6 @@ Hard Things on Hard Thing
 숫자로 경영하라
 Principles
 당신은 사업가입니까?
-Accidental Superpower
 Credit Investing Handbook
 Why I left Goldman Sachs
 
@@ -40,6 +45,8 @@ Dark Pool
 Grit
 Originals
 평균의 종말 - 토드로
+
+Feynman Physics
 
 <Books I'm reading>
 반항하는 인간
@@ -54,14 +61,14 @@ The Art of Doing Science and Engineering
 <읽고싶은 책>
 - Alibaba
 - The Dream Machine
-- Walden
+- Material World (물질의 세계) - 에드 콘웨이
 - Swimming Across
 - The Power Broker: Robert Moses and the Fall of New York
 - The Polymath: Unlocking the Power of Human Versatility
 - The Information: A History, a Theory, a Flood
 - The Sovereign Individual: Mastering the Transition to the Information Age
 - A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
-
+- 문명의 충돌 - 새뮤얼 헌팅
 
 <Books I don't like>
 - 부의 추월차선
@@ -73,3 +80,19 @@ The Art of Doing Science and Engineering
 https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
 
 https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf
+
+
+<Things I want/have to learn>
+
+Leetcode
+DSA
+How to write a good code
+OS / Systems
+Rust
+kernel engineering
+Lyapunov function & Linear Systems/Control Theory
+Measure Theory
+Functional Analysis
+Functional Differential Geometry
+Algorithmic Game Theory (NETS4120)
+Abstract Algebra
