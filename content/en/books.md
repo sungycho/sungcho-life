@@ -11,6 +11,7 @@ title: Books
 - *The Myth of Sisyphus* - Albert Camus
 - [*이어령의 마지막 수업* - 이어령](essays/2022-08-24.html)
 - *읽고 쓴다는 것, 그 거룩함과 통쾌함에 대하여* - 고미숙 
+- *On the Genealogy of Morality* - Friedrich Nietzsche
 
 ### Business & Strategy
 - *Zero to One* — Peter Thiel
@@ -23,6 +24,14 @@ title: Books
 - *크래프톤웨이* — Krafton story
 - *박태준 평전* - 이대환
 - *일의 격* - 신수정
+- *The Most Important Thing* - Howard Marks
+- *Elon Musk* - Walter Isaacson
+- *The Goal* - Eliyahu M. Goldratt
+- *Principles* - Ray Dalio
+
+### Science & Technology
+- *How the Internet Happened: From Netscape to the iPhone* - Brian McCullough
+- *The Chip War* - Chris Miller
 
 ### History, Politics, and Geography
 - *The Accidental Superpower* - Peter Zeihan
