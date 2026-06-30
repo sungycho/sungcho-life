@@ -69,7 +69,10 @@ The Art of Doing Science and Engineering
 - The Sovereign Individual: Mastering the Transition to the Information Age
 - A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
 - 문명의 충돌 - 새뮤얼 헌팅
-
+- The End of History and the Last Man - Francis Fukuyama
+- The Battle of Bretton Woods - Benn Steil
+- The Bretton Woods International Monetary System: A Historical Overview - Michael D. Bordo
+- Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
 <Books I don't like>
 - 부의 추월차선
 - Man's Search for meaning
@@ -80,6 +83,33 @@ The Art of Doing Science and Engineering
 https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
 
 https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf
+
+
+<Stripe Press books to Buy>
+Tier 1
+- the origins of efficiency
+- the scaling era: an oral history of ai
+- boom
+- 
+Tier 2
+- the dream machine
+- Scientific Freedom: The Elixir of Civilization
+    - funding model에 대한 얘기 다룬다는데 재밌을듯? 
+- Pieces of the Action
+    - management 관련 책 같은 느낌 
+- The Big Score: The Billion Dollar Story of Silicon Valley
+- An Elegant Puzzle: Systems of Engineering Management
+- Stubborn Attachments: A Vision for a Society of Free, Prosperous, and Responsible Individuals
+- Where Is My Flying Car?
+
+Tier 3
+- The Making of Prince of Persia: Journals 1985-1993
+- Get Together: How to Build a Community With Your People
+- The Revolt of the Public and the Crisis of Authority in the New Millennium
+- High Growth Handbook: Scaling Startups from 10 to 10,000 People
+- Working in Public: The Making and Maintenance of Open Source Software
+- Scaling People: Tactics for Management and Company Building
+- Maintenance: Of Everything, Part One
 
 
 <Things I want/have to learn>
