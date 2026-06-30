@@ -126,3 +126,18 @@ Functional Analysis
 Functional Differential Geometry
 Algorithmic Game Theory (NETS4120)
 Abstract Algebra
+
+<이상적인 동업자/파트너의 자질>
+- long term mindset
+    - minimal tweaking / emotional maturity /
+- audacity
+    - ambition / willingness to excel (which is different from excellence itself)
+- learning machine
+    - which necessarily comes with humbleness
+    - read a lot / interact with human knowledge a lot (not necessarily talking to ppl tho)
+- multidisciplinary ? (is this necessary?)
+- 야수성, 반항정신, 홍대병... nonconformist
+
+<글감>
+좋은 조언의 조건
+- specific (ex. red flag - how to get a job)
