@@ -141,3 +141,49 @@ Abstract Algebra
 <글감>
 좋은 조언의 조건
 - specific (ex. red flag - how to get a job)
+
+
+<Quote>
+“Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.” - Sydney Brenner
+
+
+
+<AI Research Ideas>
+- What we know about AI
+- AI models are vastly more psychologically complex: introspection (https://www.anthropic.com/research/introspection) & persona (https://www.anthropic.com/research/persona-vectors)
+    - source: https://darioamodei.com/essay/the-adolescence-of-technology#1-i-m-sorry-dave
+- https://www.anthropic.com/research/emergent-misalignment-reward-hacking
+- https://www.anthropic.com/research/auditing-hidden-objectives
+
+<AI Reads>
+- https://www.anthropic.com/research/next-generation-constitutional-classifiers
+- https://arxiv.org/pdf/2504.01849
+- https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai
+- https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#assessing-features-v-neurons
+- https://www.anthropic.com/news/golden-gate-claude
+- https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+- https://selfawaresystems.com/wp-content/uploads/2008/01/ai_drives_final.pdf
+- https://alignment.anthropic.com/2025/inoculation-prompting/
+- https://darioamodei.com/post/the-urgency-of-interpretability
+- https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input
+- https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
+- https://www.anthropic.com/research/mapping-mind-language-model
+- https://www.anthropic.com/research/auditing-hidden-objectives
+
+<AI-relevant Reads>
+- https://worksinprogress.co/issue/the-golden-age-of-vaccine-development/
+- https://distill.pub/2020/circuits/frequency-edges/
+- https://sites.cc.gatech.edu/computing/nano/documents/Joy%20-%20Why%20the%20Future%20Doesn%27t%20Need%20Us.pdf
+- https://www.science.org/doi/10.1126/science.ads9158#elettersSection
+- https://www.anthropic.com/constitution
+- https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/
+- https://en.wikipedia.org/wiki/Socialist_calculation_debate#:~:text=The%20socialist%20calculation%20debate%2C%20sometimes,of%20the%20means%20of%20production.
+- https://www.econlib.org/library/Essays/hykKnw.html
+- https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf
+
+
+
+
+In fact, there are many examples, in both the natural and artificial worlds, of systems we understand (and sometimes control) at the level of principles but not in detail: economies, snowflakes, cellular automata, human evolution, human brain development, and so on. (source: https://darioamodei.com/post/the-urgency-of-interpretability#fn:1)
+-> My Q: then can we approach AI interpretability as we approach Economics?
+ 
