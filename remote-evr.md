@@ -73,6 +73,8 @@ The Art of Doing Science and Engineering
 - The Battle of Bretton Woods - Benn Steil
 - The Bretton Woods International Monetary System: A Historical Overview - Michael D. Bordo
 - Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
+- 도덕경 - 노자 
+
 <Books I don't like>
 - 부의 추월차선
 - Man's Search for meaning
@@ -147,6 +149,8 @@ Abstract Algebra
 “Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.” - Sydney Brenner
 
 
+<Good Essays/Reads>
+- https://www.nfx.com/post/technology-windows
 
 <AI Research Ideas>
 - What we know about AI
@@ -169,6 +173,10 @@ Abstract Algebra
 - https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
 - https://www.anthropic.com/research/mapping-mind-language-model
 - https://www.anthropic.com/research/auditing-hidden-objectives
+- https://danfaggella.com/flex/
+- https://intelligence-curse.ai/
+- https://gradual-disempowerment.ai/
+- https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
 
 <AI-relevant Reads>
 - https://worksinprogress.co/issue/the-golden-age-of-vaccine-development/
@@ -180,7 +188,7 @@ Abstract Algebra
 - https://en.wikipedia.org/wiki/Socialist_calculation_debate#:~:text=The%20socialist%20calculation%20debate%2C%20sometimes,of%20the%20means%20of%20production.
 - https://www.econlib.org/library/Essays/hykKnw.html
 - https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf
-
+- https://intelligence-curse.ai/
 
 
 
