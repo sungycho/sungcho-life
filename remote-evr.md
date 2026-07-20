@@ -45,8 +45,9 @@ Dark Pool
 Grit
 Originals
 평균의 종말 - 토드로
+톨스토이 고백록 
 
-Feynman Physics
+
 
 <Books I'm reading>
 반항하는 인간
@@ -56,7 +57,7 @@ Poor Charlie's Almanack
 The Art of Doing Science and Engineering
 선과 모터사이클 관리술
 플루타르크 영웅전
-
+Feynman Physics
 
 <읽고싶은 책>
 - Alibaba
@@ -74,6 +75,12 @@ The Art of Doing Science and Engineering
 - The Bretton Woods International Monetary System: A Historical Overview - Michael D. Bordo
 - Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
 - 도덕경 - 노자 
+
+- https://www.oreilly.com/library/view/deep-learning-for/9781492039822/
+- https://readwriteown.com/
+- https://a16z.com/books/the-cold-start-problem/
+- https://a16z.com/books/secrets-of-sand-hill-road/
+
 
 <Books I don't like>
 - 부의 추월차선
@@ -147,10 +154,61 @@ Abstract Algebra
 
 <Quote>
 “Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.” - Sydney Brenner
+"What I cannot create, I do not understand" - Richard Feynman
 
+<Good Essays/Reads - Business>
 
-<Good Essays/Reads>
 - https://www.nfx.com/post/technology-windows
+- https://x.com/NFX/status/2075253076152263069
+- https://www.nfx.com/post/ai-games
+
+
+<Good Essays/Reads - Philosophy/Humanities>
+- https://www.econlib.org/library/Essays/hykKnw.html
+
+- https://www.cs.unc.edu/techreports/86-020.pdf
+
+
+<Good Essays/Reads - AI & Society>
+- https://intelligence-curse.ai/
+    - pretty comprehensive outlook & analysis of how AI will play out and what should be done as a society. also a lot of great reference/citations
+- https://gradual-disempowerment.ai/
+- Dario Amodei Essays
+    - https://darioamodei.com/essay/the-adolescence-of-technology
+    - https://darioamodei.com/essay/machines-of-loving-grace
+        - Both has a lot of great reference/citations
+
+- https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
+
+
+<Good Essays/Reads - AI Technology>
+
+- https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
+- https://groups.csail.mit.edu/medg/people/psz/Licklider.html
+
+<Good Essays/Reads - non-AI Technology>
+- https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf
+- https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
+
+<Good Essays/Reads - Miscellaneous Interesting Concepts/Stuff>
+- https://en.wikipedia.org/wiki/Ephemeralization
+- https://en.wikipedia.org/wiki/Lyapunov_exponent
+- https://en.wikipedia.org/wiki/Jevons_paradox
+- https://en.wikipedia.org/wiki/Lump_of_labour_fallacy
+- https://en.wikipedia.org/wiki/No_Silver_Bullet
+- https://en.wikipedia.org/wiki/Elite_overproduction
+
+
+<Important AI Papers>
+- https://arxiv.org/abs/2001.08361
+- https://arxiv.org/pdf/2504.01849
+
+<Peopl/Newsletter/Blog I follow/read>
+- https://thegregyang.com/
+- https://a16z.com/news-content/
+
+
+
 
 <AI Research Ideas>
 - What we know about AI
@@ -170,13 +228,11 @@ Abstract Algebra
 - https://alignment.anthropic.com/2025/inoculation-prompting/
 - https://darioamodei.com/post/the-urgency-of-interpretability
 - https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input
-- https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
+
 - https://www.anthropic.com/research/mapping-mind-language-model
 - https://www.anthropic.com/research/auditing-hidden-objectives
 - https://danfaggella.com/flex/
-- https://intelligence-curse.ai/
 - https://gradual-disempowerment.ai/
-- https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
 
 <AI-relevant Reads>
 - https://worksinprogress.co/issue/the-golden-age-of-vaccine-development/
@@ -186,12 +242,19 @@ Abstract Algebra
 - https://www.anthropic.com/constitution
 - https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/
 - https://en.wikipedia.org/wiki/Socialist_calculation_debate#:~:text=The%20socialist%20calculation%20debate%2C%20sometimes,of%20the%20means%20of%20production.
-- https://www.econlib.org/library/Essays/hykKnw.html
-- https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf
-- https://intelligence-curse.ai/
 
 
+
+
+
+<Cool Stuff I'm following>
+- https://ai.objectives.institute/talk-to-the-city
+- https://www.arena.education/
+- https://alpha.school/the-program/
+- https://www.primeintellect.ai/blog/intellect-2
 
 In fact, there are many examples, in both the natural and artificial worlds, of systems we understand (and sometimes control) at the level of principles but not in detail: economies, snowflakes, cellular automata, human evolution, human brain development, and so on. (source: https://darioamodei.com/post/the-urgency-of-interpretability#fn:1)
++ Bingbin Liu (7/17/26): "Although 2-layer MLPs are not the same as the actual Transformers we're using nowadays, the former give useful insights on the latter's behavior" 
 -> My Q: then can we approach AI interpretability as we approach Economics?
  
+
