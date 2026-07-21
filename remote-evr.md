@@ -181,7 +181,7 @@ Abstract Algebra
 - https://www.nfx.com/post/ai-games
 
 
-<Good Essays/Reads - Philosophy/Humanities>
+<Good Essays/Reads - Philosophy/Humanities/History>
 - https://www.econlib.org/library/Essays/hykKnw.html
 
 - https://www.cs.unc.edu/techreports/86-020.pdf
@@ -199,7 +199,7 @@ Abstract Algebra
 
 - https://danfaggella.com/essays/
 
-
+- https://www.almendron.com/tribuna/wp-content/uploads/2018/03/the-dynamo-and-the-computer-an-historical-perspective-on-the-modern-productivity-paradox.pdf
 
 <Good Essays/Reads - AI & Society>
 - https://intelligence-curse.ai/
