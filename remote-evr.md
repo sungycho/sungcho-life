@@ -177,6 +177,9 @@ Abstract Algebra
     - https://darioamodei.com/essay/the-adolescence-of-technology
     - https://darioamodei.com/essay/machines-of-loving-grace
         - Both has a lot of great reference/citations
+- The History of Future series
+    - https://www.nosetgauge.com/p/a-history-of-the-future-2025-2027
+    - 
 
 - https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
 
@@ -188,7 +191,9 @@ Abstract Algebra
 
 <Good Essays/Reads - non-AI Technology>
 - https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf
-- https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
+
+
+
 
 <Good Essays/Reads - Miscellaneous Interesting Concepts/Stuff>
 - https://en.wikipedia.org/wiki/Ephemeralization
@@ -197,6 +202,7 @@ Abstract Algebra
 - https://en.wikipedia.org/wiki/Lump_of_labour_fallacy
 - https://en.wikipedia.org/wiki/No_Silver_Bullet
 - https://en.wikipedia.org/wiki/Elite_overproduction
+- https://en.wikipedia.org/wiki/PARC_(company)
 
 
 <Important AI Papers>
