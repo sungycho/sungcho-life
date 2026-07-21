@@ -9,6 +9,13 @@
 
 
 
+summary of sungycho/sungcho-life/07-21-26-intuition-on-KL-divergence.md
+
+The KL term in a VAE is not an arbitrary penalty added after the fact; it follows naturally from requiring the encoder’s latent distribution q_ϕ(z∣x) to be compatible with the prior p(z) used during generation. The reconstruction term ensures that z contains enough information to recover x, while the KL term prevents the encoder from inventing a private latent coding system that cannot be reached by sampling from the prior. It therefore behaves like a regularizer, but its deeper meaning is the cost of making inference and generation agree.
+
+
+
+
 
 
 you need to measure something to start analyzing!
@@ -179,6 +186,20 @@ Abstract Algebra
 
 - https://www.cs.unc.edu/techreports/86-020.pdf
 
+- https://samoburja.com/borrowed-versus-owned-power/
+- https://samoburja.com/gft/
+
+- https://www.nosetgauge.com/p/growth-and-civilisation
+
+- https://www.nosetgauge.com/p/review-foragers-farmers-and-fossil-fuels
+- https://www.benlandautaylor.com/p/looking-beyond-the-veil
+- https://medium.com/entrepreneurs-first/tech-entrepreneurship-and-the-disruption-of-ambition-4e6854121992
+- https://rudolf.website/short-reviews-nonfiction-1/#section-3
+
+
+- https://danfaggella.com/essays/
+
+
 
 <Good Essays/Reads - AI & Society>
 - https://intelligence-curse.ai/
@@ -194,16 +215,55 @@ Abstract Algebra
 
 - https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
 
+- https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html
+- https://www.asimov.press/p/gentle-romance
+- https://www.beren.io/2023-04-23-Composable-latent-spaces-BCIs-modular-minds/
+- https://lukedrago.substack.com/p/the-future-of-taste
+- https://lukedrago.substack.com/p/the-use-of-knowledge-in-agi-society
+- https://epoch.ai/gradient-updates/moravec-s-paradox
+- https://epoch.ai/gradient-updates/most-ai-value-will-come-from-broad-automation-not-from-r-d
+- https://www.astralcodexten.com/p/your-book-review-the-dawn-of-everything?hide_intro_popup=true
+
+
+- https://ai-2027.com/
+- https://inferencemagazine.substack.com/p/how-much-economic-growth-from-ai
+
+- https://strangecities.substack.com/p/the-choice-transition
+- https://www.lesswrong.com/posts/Kobbt3nQgv3yn29pr/my-motivation-and-theory-of-change-for-working-in-ai#Extinction_by_industrial_dehumanization
+
+
+- https://www.nosetgauge.com/p/a-history-of-the-future-2025-2027
+
+- https://www.beren.io/2023-04-10-the-singularity-as-cognitive-decoupling/
+- https://www.nosetgauge.com/p/a-disneyland-without-children
+- https://danfaggella.com/flex/
+
 
 <Good Essays/Reads - AI Technology>
 
 - https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
 - https://groups.csail.mit.edu/medg/people/psz/Licklider.html
 
+- https://devinterp.com/
+- https://aligned.substack.com/p/alignment-mvp
+- https://www.alignmentforum.org/posts/tmuFmHuyb4eWmPXz8/rant-on-problem-factorization-for-alignment
+- https://arxiv.org/pdf/2406.14546
+- https://aiguide.substack.com/p/the-llm-reasoning-debate-heats-up
+- https://www.lesswrong.com/posts/HQyWGE2BummDCc2Cx/the-case-for-cot-unfaithfulness-is-overstated
+- https://darioamodei.com/post/the-urgency-of-interpretability#fnref:1
+
+
+
+
+https://www.pi.website/blog/pi0
+
 <Good Essays/Reads - non-AI Technology>
 - https://www.fhi.ox.ac.uk/brain-emulation-roadmap-report.pdf
 
 
+<<Good Essays/Reads - Science/Mathematics>
+
+- https://arxiv.org/pdf/1802.05968
 
 
 <Good Essays/Reads - Miscellaneous Interesting Concepts/Stuff>
@@ -248,8 +308,7 @@ Abstract Algebra
 
 - https://www.anthropic.com/research/mapping-mind-language-model
 - https://www.anthropic.com/research/auditing-hidden-objectives
-- https://danfaggella.com/flex/
-- https://gradual-disempowerment.ai/
+
 
 <AI-relevant Reads>
 - https://worksinprogress.co/issue/the-golden-age-of-vaccine-development/
