@@ -1,5 +1,16 @@
 
 
+<내가 관심 갖는 주제>
+- human empowerment; human will; 인간의 무한정한 의지와 영향. 르네상스 맨.
+- 자연 법칙
+- 인간의 역사. 사회의 역사. 
+
+
+
+
+
+
+
 you need to measure something to start analyzing!
 often times, coming up with how to measure is a real change (Hubble Telescope, Shannon's Information Theory)
 
