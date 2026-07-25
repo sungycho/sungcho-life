@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+  
+
+  <link rel="stylesheet" href="/static/style.css">
+  <title>Reward-Aware Population Scaling of Evolutionary Strategies in LLM Fine-Tuning · Sung Cho</title>
+</head>
+<body>
+  <div id="menu">
+    <span class="title">Sung Cho</span>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/essays.html">Essays</a></li>
+      <li><a href="/aphorism.html">Aphorism</a></li>
+      <li><a href="/papers.html">Research</a></li>
+      <li><a href="/notes.html">Notes</a></li>
+      <li><a href="/books.html">Books</a></li>
+      <li><a href="/courses.html">Courses</a></li>
+      <li><a href="/misc.html">Misc.</a></li>
+    </ul>
+  </div>
+  <div id="left"></div>
+  <div id="content">
+    
+<h3>Reward-Aware Population Scaling of Evolutionary Strategies in LLM Fine-Tuning</h3>
+<p class="byline">July 8, 2026</p>
+
+<p><strong>Sung Cho, Gyubin Han</strong></p>
+<p>Accepted to the HiLD (High-dimensional Learning Dynamics) Workshop at ICML 2026.</p>
+<p><a href="https://arxiv.org/abs/2607.19408">arXiv</a> · <a href="https://openreview.net/forum?id=QCApKBAFo7">OpenReview</a></p>
+<p>Using Evolutionary Strategies (ES) for fine-tuning large language models is attractive because it is memory-efficient, parallel, and compatible with black-box or discrete rewards. Yet its population-size conclusions conflict sharply: fine-tuning with cross-entropy (CE) reward succeeds with N=1, while binary-reward training often needs N ≈ 30. We show this gap is largely about reward design and normalization, not population size. In the capable-model regime we study, z-score advantage normalization can cause N=2 to fail. Disabling normalization lets binary-reward ES with N=2 improve on GSM8K and TREC across capable models spanning 0.5B–7B, where the normalized variant collapses or degrades. This small-N risk is set by reward granularity: binary accuracy reward induces a zero-advantage probability q that depends in closed form on base accuracy, batch size, and intra-pair correctness correlation; a zero-training probe on Qwen2.5-Instruct/GSM8K matches the formula with mean absolute error 0.020 across 12 configurations and finds the availability threshold N_avail to be small in this capable-model regime. The implication is not that N=2 is universally sufficient, but that small-population failure in capable-model binary ES can be an implementation artifact rather than an intrinsic population limit.</p>
+
+  </div>
+
+  
+</body>
+</html>

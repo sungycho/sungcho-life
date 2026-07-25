@@ -13,7 +13,7 @@
 <h4>{{ year }}</h4>
 <ul>
 {% for item in items %}
-<li><a href="{{ item.url }}">{{ item.title }}</a>{% if item.description %} — {{ item.description }}{% endif %}</li>
+<li><a href="{{ item.url }}">{{ item.title }}</a>{% if item.description %} — {{ item.description }}{% endif %}{% if item.arxiv or item.openreview %} ({% if item.arxiv %}<a href="{{ item.arxiv }}">arXiv</a>{% endif %}{% if item.arxiv and item.openreview %} · {% endif %}{% if item.openreview %}<a href="{{ item.openreview }}">OpenReview</a>{% endif %}){% endif %}</li>
 {% endfor %}
 </ul>
 {% endfor %}

@@ -62,6 +62,8 @@ def scan_entries(content_subdir, url_prefix, lang):
             'date': str(meta.get('date', '2026-01-01')),
             'description': meta.get('description', ''),
             'url': f"{url_prefix}{slug}.html",
+            'arxiv': meta.get('arxiv', ''),
+            'openreview': meta.get('openreview', ''),
         }
         entries.append(entry)
 

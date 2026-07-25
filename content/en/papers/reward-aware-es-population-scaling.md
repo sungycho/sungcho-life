@@ -1,0 +1,15 @@
+---
+title: "Reward-Aware Population Scaling of Evolutionary Strategies in LLM Fine-Tuning"
+date: 2026-07-08
+description: Accepted to the HiLD Workshop at ICML 2026
+arxiv: https://arxiv.org/abs/2607.19408
+openreview: https://openreview.net/forum?id=QCApKBAFo7
+---
+
+**Sung Cho, Gyubin Han**
+
+Accepted to the HiLD (High-dimensional Learning Dynamics) Workshop at ICML 2026.
+
+[arXiv](https://arxiv.org/abs/2607.19408) · [OpenReview](https://openreview.net/forum?id=QCApKBAFo7)
+
+Using Evolutionary Strategies (ES) for fine-tuning large language models is attractive because it is memory-efficient, parallel, and compatible with black-box or discrete rewards. Yet its population-size conclusions conflict sharply: fine-tuning with cross-entropy (CE) reward succeeds with N=1, while binary-reward training often needs N ≈ 30. We show this gap is largely about reward design and normalization, not population size. In the capable-model regime we study, z-score advantage normalization can cause N=2 to fail. Disabling normalization lets binary-reward ES with N=2 improve on GSM8K and TREC across capable models spanning 0.5B–7B, where the normalized variant collapses or degrades. This small-N risk is set by reward granularity: binary accuracy reward induces a zero-advantage probability q that depends in closed form on base accuracy, batch size, and intra-pair correctness correlation; a zero-training probe on Qwen2.5-Instruct/GSM8K matches the formula with mean absolute error 0.020 across 12 configurations and finds the availability threshold N_avail to be small in this capable-model regime. The implication is not that N=2 is universally sufficient, but that small-population failure in capable-model binary ES can be an implementation artifact rather than an intrinsic population limit.
