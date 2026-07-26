@@ -17,7 +17,11 @@
 {% endfor %}
 </ul>
 {% endfor %}
-{% else %}
+{% elif not read_papers_html %}
 <p>No entries yet.</p>
+{% endif %}
+{% if read_papers_html %}
+<h4>Papers I Read</h4>
+{{ read_papers_html | safe }}
 {% endif %}
 {% endblock %}

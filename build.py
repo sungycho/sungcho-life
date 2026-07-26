@@ -140,7 +140,7 @@ def build_lang(lang):
                custom_styles=None)
 
     # ── Simple pages ──────────────────────────────────────────────────────────
-    simple_pages = ['index', 'about', 'notes', 'books', 'courses', 'misc']
+    simple_pages = ['index', 'about', 'books', 'courses', 'resources', 'misc']
     for page in simple_pages:
         md_path = content_dir / f'{page}.md'
         if not md_path.exists():
@@ -257,9 +257,15 @@ def build_lang(lang):
            include_accordion=False,
            custom_styles=None)
 
+    papers_read_path = content_dir / 'papers_read.md'
+    papers_read_html = None
+    if papers_read_path.exists():
+        _, papers_read_html = read_md(papers_read_path)
+
     render('list.html', out_root / 'papers.html',
            title='Research',
            entries_by_year=group_by_year(papers),
+           read_papers_html=papers_read_html,
            lang=nav_lang,
            page_slug='papers.html',
            show_lang_toggle=False,
