@@ -169,6 +169,27 @@ Abstract Algebra
 좋은 조언의 조건
 - specific (ex. red flag - how to get a job)
 
+돈이 몰리는 곳에 high-growth opps가 있다
+돈은 어디에 몰리나? bottleneck에
+etched가 짧은 기간에 그렇게 많은 revenue를 내고 많이 raise한 것도 그래서임.
+자본의 흐름을 파악해야 한다
+안그러면 sales도 어려워짐
+
+your thought is so cool only until you write it down
+it's so easy to fool yourself. 
+
+technology always is slowed down by law, economics, psychology, regulation -> huge, huge force
+
+
+it's so funny that i, once got so fed up with pure studies (math) that ended up pursuing a secular area (finance), now am so done with secular stuff (finance, startup,...) that is pursuing a research phd. history does repeat its rhythm. (both in individual and macroscopic sense - prolly because there are only a handful of structure that can be folded out if you look from a high enough view)
+
+
+ppl only do what they think is cool. I thought of banking initially cuz i thought it was cool. then, I pivoted to startup cuz i thought it was cool. now i think research is cool. why do one think of something as cool? multiple factors: could be a surroundings you grew up, someone you look up to, something you just randomly ran into and found fascinating...
+
+
+am i too obsessed with my career in top-down, high-level view? am i not giving enough focus to details, bottom-up stuff? (e.g., actually learning bunch of stuff)
+
+---
 
 <Quote>
 “Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.” - Sydney Brenner
@@ -333,4 +354,7 @@ In fact, there are many examples, in both the natural and artificial worlds, of 
 + Bingbin Liu (7/17/26): "Although 2-layer MLPs are not the same as the actual Transformers we're using nowadays, the former give useful insights on the latter's behavior" 
 -> My Q: then can we approach AI interpretability as we approach Economics?
  
+
+
+
 
