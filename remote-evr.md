@@ -179,7 +179,19 @@ your thought is so cool only until you write it down
 it's so easy to fool yourself. 
 
 technology always is slowed down by law, economics, psychology, regulation -> huge, huge force
+이건 근데 모든 게 항상 그렇다.
+본질적으론 인간이 이성적 존재이면서 동시에 비이성적 존재이기 때문. 즉 유기체이기 때문? (동물도 이성과 감정을 동시에 가지나?)
+그리고 여러 인간이 모여서 집단을 형성하는 사회적 동물로 남아있는 한, 인간은 항상 그 두가지 모습을 동시에 가진 사회를 이룰 것.
+나는 역시나 그 사이 어딘가에 위치한 '중간자'이지만, 그래도 지금 내게 더 필요한 것은 과학적 사고
 
+corporate은 기본적으로 이성과 비이성의 결합이고, 인간과 가까워질 수록 (세일즈 등) 비이성적이어지고 인간과 멀어질 수록 (무언가를 만드는, 엔지니어링 등) 이성적이어진다.
+investment banking은 advice를 준다는 점에서 이성적이어 보일 수 있지만, 사실 
+
+
+
+와튼이 아닌 다른 학교를 갔었어야 했을까? 답은 
+
+ 
 
 it's so funny that i, once got so fed up with pure studies (math) that ended up pursuing a secular area (finance), now am so done with secular stuff (finance, startup,...) that is pursuing a research phd. history does repeat its rhythm. (both in individual and macroscopic sense - prolly because there are only a handful of structure that can be folded out if you look from a high enough view)
 
@@ -188,6 +200,29 @@ ppl only do what they think is cool. I thought of banking initially cuz i though
 
 
 am i too obsessed with my career in top-down, high-level view? am i not giving enough focus to details, bottom-up stuff? (e.g., actually learning bunch of stuff)
+
+
+소년 같다의 정의? 호기심을 유지하는 것.
+나이 먹어도 소년 같은 사람의 비결? 호기심이 짓밟히지 않고 적당히 보상해주며 그것의 즐거움을 향유할 수 있는 여유 혹은 필요를 가진 인생을 살아온 사람
+corporate 환경은 사람을 늙게 만든다! 단순히 physically가 아니라 정신적으로. 왜냐면 호기심을 꺾기 때문
+
+2015년부터 2025년까지 10년 동안 나는 세상을 더욱 higher resolution으로 보려고했다. 그러나 마침내 가까이서 본 세상의 모습은 더없이 추악하고 지루하기 그지 없었다. 그래서 나는 다시 순수의 세계로 돌아간다. clear thinking만이 지배하는.
+
+
+mathematics is a language for clear thinking.
+- 핑계가 없다
+
+
+뇌터의 법칙: https://youtu.be/Em-cqknAFKw?si=RJJ3MkX61txHmAmM
+- 에너지 보존은 대칭성에서 나온다. 대칭성이 깨지면 보존법칙도 깨진다. 너무나 아름다운 아이디어 
+https://en.wikipedia.org/wiki/Noether%27s_theorem
+
+
+
+우리는 우리 자신의 인생을 매순간 현실인 것처럼 살아가야 하지만, 또한 동시에 제3자의 시선으로 마치 남의 인생인 것처럼 바라볼 수 있어야 한다.
+마치 과학 탐구에서, 내가 해당 순간에 탐구하고 있는 주제에 최선을 다해야 하지만, 동시에 한발짝 물러서서 이걸 계속 탐구하는 게 맞는지 끊임없이 loop 검증해야 하는 것처럼 (스타트업도 마찬가지)
+
+
 
 ---
 
