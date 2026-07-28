@@ -1,13 +1,40 @@
 
 
-<내가 관심 갖는 주제>
+<내가 관심 갖는 주제/흥미로운 질문들>
 - human empowerment; human will; 인간의 무한정한 의지와 영향. 르네상스 맨.
+    - 영웅의 역사.
+        - 나폴레옹.
+        - 관련 책: Parallel Lives by Plutarch, 
+    - 영웅의 현재와 미래
+        - 영웅은 만들어지는 것인가, 태어나는 것인가?
 - 자연 법칙
-- 인간의 역사. 사회의 역사. 
+    - '자연스럽다'는 것의 정의?
+        - Pareto rule (80/20); Power law; Central Limit Theorem
+- 인간의 역사. 사회 구조 경제 구조.
+    - 사회 제도의 발전
+        - 사회계약설은 참인가? 아직도 유효한가? 
+    - 경제 구조
+        - 마르크스의 이상은 이뤄질 수 있는가?
+        - 브레튼우즈 체계는 이제 끝났는가?
+- 과학과 기술의 발전.
+    - 발전의 역사.
+        - 과거 중요한 과학과 기술의 발전은 왜 일어났고, 어떻게 일어났는가?
+        - 
+    - 발전의 현재.
+        - 
+    - 발전의 미래.
+        - 기술 진보의 미래를 예측할 수 있는가?
+        - 관련 책: The Structure of Scientific Revolution - Thomas Kuhn ; The Art of Doing Science and Engineering - Richard Hamming
 
 
 
+<내가 만들고 싶은 회사의 모습>
+- scientific mindset + intellectual curiosity + hyper-competitiveness가 공존 (+ 세상에 대한 관심 [사랑까진 아님]) [Quote: PLTR essay: https://nabeelqu.substack.com/p/reflections-on-palantir]
+    - 조건을 추가할 수록, 그리고 인재에 대한 bar를 높일 수록 뽑을 수 있는 pool의 사람은 적어진다. 하지만 한편으론 예전보다 채용이 쉬워지는 force도 존재한다. specific skillset (e.g., 코딩 등)의 중요성이 점점 내려가고 대신 raw intelligence의 중요성이 올라감. 필요한 건 가르치면 됨.
+- 서로가 격의 없이 반말함. (아님 영어로 소통)
+    - 나이 같은 거 필요없음
 
+- 결국 내가 만들고 싶은 회사가 내가 만들고 싶은 나라네? (그치만 다른 점도 있다면, 회사는 비교적 통제가 쉽고, 구성원이 어느 정도로 완성된 상태로 들어오지만, 국가는 국민의 end-to-end lifecycle을 관장해야 하며, 국민 간 수준의 차이도 훨씬 더 클 것 어쩔 수 없이)
 
 summary of sungycho/sungcho-life/07-21-26-intuition-on-KL-divergence.md
 
@@ -313,6 +340,17 @@ life is a game
 미래의 직장은 execution이 거의 대부분 사라지고 과반의 시간이 배움 (동료들 간의 싱크를 위한 커뮤니케이션 포함)에 이뤄지게 될 것이다
 
 엄밀함의 정의? 어떤 개념의 엄밀함과 그걸 이해하기 위한 난이도(measured by time?)는 비례하나? 쉬울 수록 human-level (e.g., language)이고 어려울 수록 low-level (e.g., mathematics)인가?
+
+
+
+Goodhart's Law: when the measure becomes the object, it's stops becoming a good measure.
+investment banking에서 사람들이 유독 toxic하고 틀린 거 인정 안하려 하는 이유? 보이는 게 중요하니까! 카리스마와 '똑똑해 보임'으로 먹고 사니까. 그 후광 효과. 그치만 그게 목적이 되는 순간, 본질에서 멀어지게 됨
+반면 과학자들이 본인이 틀렸다는 사실을 자각할 때 굳이 고집 부릴 필요가 없는게, 그들의 목적 혹은 measure은 '얼마나 과학적 진리를 잘 발견하는가'인 거니까, '똑똑해 보이는 것'과 전혀 연관이 없음!
+
+결국 모든 인간ㅇ느 incentive대로 움직인다! 선의라든가 악의도 결국 incentive에 따른 것.
+그니까 한 인간의 행동을 그 인간의 천성보다는 주변 환경과 incentive의 구조에 따라 설명해야 함.
+
+
 
 
 
