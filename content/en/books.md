@@ -24,7 +24,6 @@ title: Books
 - *Kakegurui: Compulsive Gambler* (cartoon)
 - *유난한 도전* — 토스(Toss) story
 - *크래프톤웨이* — Krafton story
-- *박태준 평전* - 이대환
 - *일의 격* - 신수정
 - *The Most Important Thing* - Howard Marks
 - *Elon Musk* - Walter Isaacson
@@ -54,8 +53,16 @@ title: Books
 - *군주론* — Niccolò Machiavelli
 - *사피엔스* — Yuval Noah Harari
 - *총균쇠* — Jared Diamond
+- *박태준 평전* - 이대환
+
 
 ### Literature & Writing
 - *The Stranger* - Albert Camus
 - *생의 이면* - 이승우
 - *문장강화* - 이태준
+
+
+### Books I hate
+- *부의 추월차선*
+- *Man's Search for meaning*
+- *How to Influence People*
