@@ -93,6 +93,24 @@ Feynman Physics
 - The Bretton Woods International Monetary System: A Historical Overview - Michael D. Bordo
 - Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
 - 도덕경 - 노자 
+- The Idea Factory: Bell Labs and the Great Age of American Innovation
+Engineering in Plain Sight: An Illustrated Field Guide to the Constructed Environment
+- 괴델 에셔 바흐
+Nomad Letters: The Full Collection of the Nomad Investment Partnership Letters to Partners, 2001–2014
+- Skunk Works: A Personal Memoir of My Years at Lockheed
+
+- Staff Engineer: Leadership beyond the management track
+The Anduril Thesis
+
+The Science of Rapid Skill Acquisition: Advanced Methods to Learn, Remember, and Master New Skills and Information (Learning how to Learn)
+Advice for a Young Investigator (Mit Press)
+
+The Art of Scientific Investigation — W. I. B. Beveridge
+
+Talent: How to Identify Energizers, Creatives, and Winners Around the World (Tyler Cowen)
+
+
+ABC of reading (https://en.wikipedia.org/wiki/ABC_of_Reading)
 
 - https://www.oreilly.com/library/view/deep-learning-for/9781492039822/
 - https://readwriteown.com/
@@ -179,7 +197,7 @@ your thought is so cool only until you write it down
 it's so easy to fool yourself. 
 
 technology always is slowed down by law, economics, psychology, regulation -> huge, huge force
-이건 근데 모든 게 항상 그렇다.
+이건 근데 모든 게 항상 그렇다. (Arts <-> Science)
 본질적으론 인간이 이성적 존재이면서 동시에 비이성적 존재이기 때문. 즉 유기체이기 때문? (동물도 이성과 감정을 동시에 가지나?)
 그리고 여러 인간이 모여서 집단을 형성하는 사회적 동물로 남아있는 한, 인간은 항상 그 두가지 모습을 동시에 가진 사회를 이룰 것.
 나는 역시나 그 사이 어딘가에 위치한 '중간자'이지만, 그래도 지금 내게 더 필요한 것은 과학적 사고
@@ -189,7 +207,14 @@ investment banking은 advice를 준다는 점에서 이성적이어 보일 수 �
 
 
 
-와튼이 아닌 다른 학교를 갔었어야 했을까? 답은 
+와튼이 아닌 다른 학교를 갔었어야 했을까? 답은 그렇다와 그렇지 않다가 동시에 존재한다.
+그렇다는 입장은 비교적 명확하다. 지금 2026년 여름의 나로선 이미 내가 무엇을 원하는지 파악했기 때문에, 
+
+그렇지 않다는 입장은 인생은 수식이나 하나의 구조 따위로 표현될 수 있는 게 아니라는 거다. finance를 하고 싶었고, prestige와 화려함에 끌리던 시기의 나 역시도 나의 일부이다. 그걸 embrace해야 한다. 인생을 기계적으로 조작할 수는 없는 노릇이다. 이건 이미 지나간 과거에 대한 무기력한 포기가 아닌, 역경과 실수조차 과정의 일부로 인정하고 더욱 진실된 나 자신을 받아들이는 적극적 포용에 가깝다.
+
+무엇보다 역설적으로, 지금은 내가 그토록 미련없이 버리는 finance가, 동시에 나를 더 큰 세상인 미국으로 오게 해준 가장 큰 원동력이라는 사실이다.
+
+인생은 아이러니로 가득차 있다.
 
  
 
@@ -223,6 +248,73 @@ https://en.wikipedia.org/wiki/Noether%27s_theorem
 마치 과학 탐구에서, 내가 해당 순간에 탐구하고 있는 주제에 최선을 다해야 하지만, 동시에 한발짝 물러서서 이걸 계속 탐구하는 게 맞는지 끊임없이 loop 검증해야 하는 것처럼 (스타트업도 마찬가지)
 
 
+왜 bcg 등 컨설팅 펌들은 이제 과거의 전략 위주를 벗어나 execution / result에 더욱 집중할까?
+왜냐면 generic한 전략은 이제 AI가 너무 쉽게 만드니까! (AI can [partially] be the CEO's corporate therapist!)
+즉 더이상 전략이 scarce하지 않아짐!
+something is valuable only until it's scarce -- first principle of economcis 
+
+
+
+raw intelligence가 너무나 중요하다
+intelligence란 뭔가? 시험 잘 보는거? 암기 잘 하는거?
+틀렸다
+어떤 자세에 가까움. 생각의 태도? 사고의 흐름. 사고의 제어. 
+어쩌면 타협하지 않는 태도일지도 (https://nabeelqu.substack.com/p/understanding) -> 용기, 솔직함, 합일.
+내가 무엇을 모르는지 아는 것. (EBS 다큐멘터리) 그리고 그 모르는 것을 아는 것으로 '이해'하기 위해 타협하지 않고 최선을 다하는 것.
+즉 지능도 결국 '노력'의 일종. 생각하기 위한 일종. 그런 의미에서 노력은 재능이고, 재능도 노력이다. 똑똑함과 노력은 별개가 아니라 하나의 것.
+software vs. hardware of thinking
+- 생각하는 속도가 빠르거나 등의 하드웨어적인 건 분명 메리트가 있지만, 본질은 그게 아님. 그리고 이거야말로 진짜 선천적인 영역인듯.
+- 본질은 소프트웨어임. 일종의 자세. 축적된 경험. 이건 후천적으로 디벨롭 가능. 내가 아는 한 적어도 20살까지는 가능. (그 이후론 잘 모르겠음)
+- 또한 무언가를 이해하는 것은 그와 관련된 사전 지식이나 맥락의 정도에 좌우됨.
+
+- 빨리 이해한다는 것이 곧 잘 이해한다는 것은 아님. 둘을 구분할 필요가 있음. 전자는 속도고 후자는 깊이임. 둘다 중요함. 하지만 결국 본질은 후자임. 
+- - 따라서 누군가 나에 비해 어떤 것을 같은 깊이로 빨리 이해한다면 그 사람이 사전지식이 더 많거나, 아니면 하드웨어가 더 좋은것
+- - 반면 같은 속도에서 더깊은 깊이로 이해한다면 마찬가지로 사전지식이 더 많거나 소프트웨어가 더 좋은 것임. 
+- 하지만 이걸 명확히 구분하긴 어려움. 우리가 보통 보는 것은 단지 타인의 아웃풋 (e.g., 시험점수, 이해한 '듯'한 몇 마디 말)이기 때문. 심지어 나 자신의 이해조차도 나 스스로가 정확히 측량하기 어려움. 오히려 나 자신이 제일 속이기 쉬움.
+
+똑똑함은 본질적으로 arts가 아닌 science와 연관 있음. 왜냐면 지능이란 건 구조를 발견하고, exploit하고, 개선하는 것인데, 그러려면 본질적인 (first-principle) 사고가 필요하고, 이는 측정할 수 없는 주관의 영역인 arts보다 엄밀함의 영역인 science와 관련이 있기 때문.
+
+내가 있는 직업군, 하고 있는 task가 어디까지 arts인지 어디까지 science의 영역인지 (대부분은 그 중간 어딘가이기에) 아는 것이 매우 중요함
+예를 들어 investment banking은 arts에 매우 가깝고, hedge fund는 science에 좀 더 가깝지만 결국 arts의 요소도 매우 강하게 작용함 (시장)
+market making trader는 오히려 arts에 가깝나? (fast judgement, intuition) - 그치만 하드웨적인게 너무나 중요해서 걍 raw intelligence가 높은 사람을 뽑나? 
+
+'이해'라는 것은 뭔가? -> 창조할 수 있는 것 (파인만); 설명할 수 있는 것
+
+그래. 나는 10년간 세상을 higher resolution으로 바라보기 위해 달려왔지만, 그 끝에서 마주한 건 주관과 모순, 감정과 지위, 끝도 없이 빨려들어가는 늪과도 같은 인간 사회의 군상이었다
+그러나 그 10년 동안 변하지 않았던 건 나는 언제나 본질적으로는 과학적으로 사고해왔다는 것. 비록 인간 사회와 삶에 대한 강한 관심과 애정을 갖고 있고 여전히 그러하지만, 나의 뇌는 과학을 기반으로 움직인다.
+그래서 나는 다시 arts의 세계에서 벗어나 science의 세계로 돌아가고자 한다. 그러나 이게 반드시 순수 학문에 정진하겠다는 뜻은 아니다. 오히려 지난 10년 간 소홀히 해왔던 엄밀한 사고를 더욱 갈고닦을 것이며, 그것이야말로 창업이든, 삶의 지혜를 발굴하는 것이든, 대한민국에 기여하는 것이든, 내가 뜻하고자 하는 모든 바를 이뤄내는 유일한 길이라 믿는다. 왜냐면 그 모든 변화는 나에게서부터 시작될 것이고, 나는 비로소 엄밀한 사람이기 때문이다.
+
+
+
+
+https://books.google.com/books?id=8w8x27pt-jcC&pg=PA52&lpg=PA52&dq=Motivation+is+at+least+as+important+as+method+for+the+serious+thinker,+Shockley+believed&source=bl&ots=Lm2d6HBdX3&sig=ACfU3U2yOzob3dRIitEpg_lDyFlFsnSIRQ&hl=en&sa=X&ved=2ahUKEwjE6NX42a3qAhWzZDUKHYijCRAQ6AEwAHoECAoQAQ#v=onepage&q=Motivation%20is%20at%20least%20as%20important%20as%20method%20for%20the%20serious%20thinker%2C%20Shockley%20believed&f=false
+Motivation is at least as important as method for the serious thinker, Shockley believed...the essential element for successful work in any field was “the will to think”. This was a phrase he learned from the nuclear physicist Enrico Fermi and never forgot. “In these four words,” Shockley wrote later, “[Fermi] distilled the essence of a very significant insight: A competent thinker will be reluctant to commit himself to the effort that tedious and precise thinking demands -- he will lack ‘the will to think’ -- unless he has the conviction that something worthwhile will be done with the results of his efforts.” The discipline of competent thinking is important throughout life...
+-> 생각의 '동기'가 제일 중요!
+
+
+
+지금까진 내가 철학을 좋아한다고 말하고 생각했지만, 사실 보다 명확히 말하면 삶과 관련된 clear thinking을 좋아했던 것. 엄밀함. 구조. 인과관계.
+그래 나는 인간과 삶을 너무나 사랑한다. 허나 동시에 관념적으로 사랑하기도 한다. 왜냐면 실재는 너무나 추악하고 더럽기 때문이다. science가 아닌 arts의 영역이다.
+
+
+
+(나보다) 어린 사람들에게의 조언
+- 많이 읽어라. 그냥 읽지 말고 치열하게 생각하며 읽어라. 생각만 하지 말고 글로 써라. 단상이든, 장문이든. (측정할 수 없는 것은 개선될 수도 없다. 생각은 오직 글로 쓰기 직전까지만 위대하다.) 그러한 기록을 축적하고, 주기적으로 되돌아봐라. 나의 세계가 훨씬 넓어진다.
+- - 좋은 책을 찾는 법? 좋은 글을 찾는 법? 좋은 글을 쓰는 법? 기록을 organize하는 법?
+
+
+
+나는 내 삶의 주인공이지만 동시에 내 삶의 가장 가까운 관찰자이기도 하다. 마치 1인칭 주인공 시점의 소설을 읽는 기분
+
+life is a game
+
+지능은 자세다. 모르는 것을 배우려는 태도. 보통 이렇게 말하면 두 사람 이상의 세팅을 상상하기 쉽지만, 가장 잦은 배움은 나 자신과의 대화를 통해 일어난다. 새로운 것을 진정으로 배웠는지 아니면 어중간하게 넘어가는지 구별하는 엄밀한 태도. 객관성. 메타인지.
+
+미래의 직장은 execution이 거의 대부분 사라지고 과반의 시간이 배움 (동료들 간의 싱크를 위한 커뮤니케이션 포함)에 이뤄지게 될 것이다
+
+엄밀함의 정의? 어떤 개념의 엄밀함과 그걸 이해하기 위한 난이도(measured by time?)는 비례하나? 쉬울 수록 human-level (e.g., language)이고 어려울 수록 low-level (e.g., mathematics)인가?
+
+
 
 ---
 
@@ -236,6 +328,10 @@ https://en.wikipedia.org/wiki/Noether%27s_theorem
 - https://x.com/NFX/status/2075253076152263069
 - https://www.nfx.com/post/ai-games
 
+
+- On Palantir and FDE
+    - https://nabeelqu.substack.com/p/reflections-on-palantir
+    - https://tedmabrey.substack.com/p/sorry-that-isnt-an-fde?utm_source=substack&utm_campaign=post_embed&utm_medium=web
 
 <Good Essays/Reads - Philosophy/Humanities/History>
 - https://www.econlib.org/library/Essays/hykKnw.html
@@ -256,6 +352,17 @@ https://en.wikipedia.org/wiki/Noether%27s_theorem
 - https://danfaggella.com/essays/
 
 - https://www.almendron.com/tribuna/wp-content/uploads/2018/03/the-dynamo-and-the-computer-an-historical-perspective-on-the-modern-productivity-paradox.pdf
+
+
+- https://nabeelqu.substack.com/p/understanding
+- https://ldeming.posthaven.com/the-rage-of-research
+
+
+https://www.8vc.com/resources/lessons-from-peter-thiel
+
+
+https://www.tandfonline.com/doi/abs/10.2753/RES1060-9393081035
+
 
 <Good Essays/Reads - AI & Society>
 - https://intelligence-curse.ai/
