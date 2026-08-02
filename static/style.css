@@ -138,6 +138,39 @@ a:hover {
   margin-bottom: 0.8em;
 }
 
+/* Epigraph quote at the top of life entries */
+#content blockquote {
+  position: relative;
+  margin: 1.6em 0 2.4em 0;
+  padding: 0.2em 0 0.2em 1.7em;
+}
+
+#content blockquote::before {
+  content: "\201C";
+  position: absolute;
+  left: -0.1em;
+  top: -0.3em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: normal;
+  font-size: 3.2em;
+  line-height: 1;
+  color: #d4a574;
+}
+
+#content blockquote p {
+  margin: 0;
+  text-align: left;
+  hyphens: none;
+  font-style: italic;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #4a3728;
+}
+
+#content blockquote em {
+  font-style: normal;
+}
+
 .post + .post {
   margin-top: 50px;
 }
@@ -272,7 +305,15 @@ strong[style*="cyan"] {
   #content h3 {
     font-size: 1.2em;
   }
-  
+
+  #content blockquote {
+    padding-left: 1.3em;
+  }
+
+  #content blockquote::before {
+    font-size: 2.4em;
+  }
+
   .accordion {
     padding: 15px;
     font-size: 14px;
