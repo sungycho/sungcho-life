@@ -25,7 +25,8 @@
     - 발전의 미래.
         - 기술 진보의 미래를 예측할 수 있는가?
         - 관련 책: The Structure of Scientific Revolution - Thomas Kuhn ; The Art of Doing Science and Engineering - Richard Hamming
-
+- 교육. 특히 미래의 교육
+- 일하는 방식. 일을 잘한다는 것. 미래의 일
 
 
 <내가 만들고 싶은 회사의 모습>
