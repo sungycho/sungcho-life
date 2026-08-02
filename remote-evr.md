@@ -4,6 +4,8 @@
 - human empowerment; human will; 인간의 무한정한 의지와 영향. 르네상스 맨.
 - 자연 법칙
 - 인간의 역사. 사회의 역사. 
+- 교육. 특히 미래의 교육
+- 일하는 방식. 일을 잘한다는 것. 미래의 일
 
 
 
@@ -40,121 +42,9 @@ is like Newton vs. Quantum mechanics
 
 
 
-<Books I read>
-- Elon Musk
-- 니체: 도덕의 계
-- The Goal
-- 일을 잘한다는 것
-생각하는 힘은 유일한 무기가 된다
-초격차
-Hard Things on Hard Thing
-숫자로 경영하라
-Principles
-당신은 사업가입니까?
-Credit Investing Handbook
-Why I left Goldman Sachs
-
-Quant
-Dark Pool
-군주론
-사피엔스
-총균쇠
-나는 습관을 조금 바꾸기로 했다
-Grit
-Originals
-평균의 종말 - 토드로
-톨스토이 고백록 
 
 
 
-<Books I'm reading>
-반항하는 인간
-로마사 논고
-The beginning of Infinity
-Poor Charlie's Almanack
-The Art of Doing Science and Engineering
-선과 모터사이클 관리술
-플루타르크 영웅전
-Feynman Physics
-
-<읽고싶은 책>
-- Alibaba
-- The Dream Machine
-- Material World (물질의 세계) - 에드 콘웨이
-- Swimming Across
-- The Power Broker: Robert Moses and the Fall of New York
-- The Polymath: Unlocking the Power of Human Versatility
-- The Information: A History, a Theory, a Flood
-- The Sovereign Individual: Mastering the Transition to the Information Age
-- A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
-- 문명의 충돌 - 새뮤얼 헌팅
-- The End of History and the Last Man - Francis Fukuyama
-- The Battle of Bretton Woods - Benn Steil
-- The Bretton Woods International Monetary System: A Historical Overview - Michael D. Bordo
-- Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
-- 도덕경 - 노자 
-- The Idea Factory: Bell Labs and the Great Age of American Innovation
-Engineering in Plain Sight: An Illustrated Field Guide to the Constructed Environment
-- 괴델 에셔 바흐
-Nomad Letters: The Full Collection of the Nomad Investment Partnership Letters to Partners, 2001–2014
-- Skunk Works: A Personal Memoir of My Years at Lockheed
-
-- Staff Engineer: Leadership beyond the management track
-The Anduril Thesis
-
-The Science of Rapid Skill Acquisition: Advanced Methods to Learn, Remember, and Master New Skills and Information (Learning how to Learn)
-Advice for a Young Investigator (Mit Press)
-
-The Art of Scientific Investigation — W. I. B. Beveridge
-
-Talent: How to Identify Energizers, Creatives, and Winners Around the World (Tyler Cowen)
-
-
-ABC of reading (https://en.wikipedia.org/wiki/ABC_of_Reading)
-
-- https://www.oreilly.com/library/view/deep-learning-for/9781492039822/
-- https://readwriteown.com/
-- https://a16z.com/books/the-cold-start-problem/
-- https://a16z.com/books/secrets-of-sand-hill-road/
-
-
-<Books I don't like>
-- 부의 추월차선
-- Man's Search for meaning
-- 데일 카네
-
-
-<Write-ups>
-https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
-
-https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf
-
-
-<Stripe Press books to Buy>
-Tier 1
-- the origins of efficiency
-- the scaling era: an oral history of ai
-- boom
-- 
-Tier 2
-- the dream machine
-- Scientific Freedom: The Elixir of Civilization
-    - funding model에 대한 얘기 다룬다는데 재밌을듯? 
-- Pieces of the Action
-    - management 관련 책 같은 느낌 
-- The Big Score: The Billion Dollar Story of Silicon Valley
-- An Elegant Puzzle: Systems of Engineering Management
-- Stubborn Attachments: A Vision for a Society of Free, Prosperous, and Responsible Individuals
-- Where Is My Flying Car?
-
-Tier 3
-- The Making of Prince of Persia: Journals 1985-1993
-- Get Together: How to Build a Community With Your People
-- The Revolt of the Public and the Crisis of Authority in the New Millennium
-- High Growth Handbook: Scaling Startups from 10 to 10,000 People
-- Working in Public: The Making and Maintenance of Open Source Software
-- Scaling People: Tactics for Management and Company Building
-- Maintenance: Of Everything, Part One
 
 
 <Things I want/have to learn>

@@ -31,7 +31,7 @@ def read_md(filepath):
             meta = yaml.safe_load(parts[1]) or {}
             body = parts[2].strip()
 
-    html = markdown.markdown(body, extensions=['tables', 'fenced_code'])
+    html = markdown.markdown(body, extensions=['tables', 'fenced_code', 'footnotes'])
     return meta, html
 
 
@@ -140,7 +140,9 @@ def build_lang(lang):
                custom_styles=None)
 
     # ── Simple pages ──────────────────────────────────────────────────────────
-    simple_pages = ['index', 'about', 'books', 'courses', 'resources', 'misc']
+    # 'aphorism' is a single running file of quotes, not a dated collection —
+    # it gets a Korean toggle since content/kr/aphorism.md is its counterpart.
+    simple_pages = ['index', 'about', 'books', 'courses', 'resources', 'aphorism', 'misc']
     for page in simple_pages:
         md_path = content_dir / f'{page}.md'
         if not md_path.exists():
@@ -162,7 +164,7 @@ def build_lang(lang):
                content=html_body,
                lang=nav_lang,
                page_slug=page_slug,
-               show_lang_toggle=False,
+               show_lang_toggle=(page == 'aphorism'),
                include_mathjax=False,
                include_accordion=False,
                custom_styles=None)
@@ -182,29 +184,6 @@ def build_lang(lang):
                title=essay['title'],
                essay_title=essay['title'],
                essay_date=essay_date,
-               content=html_body,
-               lang=nav_lang,
-               page_slug=page_slug,
-               show_lang_toggle=True,
-               include_mathjax=False,
-               include_accordion=False,
-               custom_styles=None)
-
-    # ── Aphorism pages ────────────────────────────────────────────────────────
-    aphorism_url_prefix = '/aphorism/' if lang == 'en' else '/kr/aphorism/'
-    aphorisms = scan_entries(content_dir / 'aphorism', aphorism_url_prefix, lang)
-
-    for aphorism in aphorisms:
-        md_path = content_dir / 'aphorism' / f"{aphorism['slug']}.md"
-        meta, html_body = read_md(md_path)
-        out_file = out_root / 'aphorism' / f"{aphorism['slug']}.html"
-        page_slug = f"aphorism/{aphorism['slug']}.html"
-        aphorism_date = datetime.strptime(aphorism['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if aphorism.get('date') else ''
-
-        render('essay.html', out_file,
-               title=aphorism['title'],
-               essay_title=aphorism['title'],
-               essay_date=aphorism_date,
                content=html_body,
                lang=nav_lang,
                page_slug=page_slug,
@@ -242,16 +221,6 @@ def build_lang(lang):
            entries_by_year=group_by_year(essays),
            lang=nav_lang,
            page_slug='essays.html',
-           show_lang_toggle=True,
-           include_mathjax=False,
-           include_accordion=False,
-           custom_styles=None)
-
-    render('list.html', out_root / 'aphorism.html',
-           title='Aphorism',
-           entries_by_year=group_by_year(aphorisms),
-           lang=nav_lang,
-           page_slug='aphorism.html',
            show_lang_toggle=True,
            include_mathjax=False,
            include_accordion=False,
@@ -315,21 +284,17 @@ def build_kr_essays():
                include_accordion=False,
                custom_styles=None)
 
-    aphorism_url_prefix = '/kr/aphorism/'
-    aphorisms = scan_entries(content_dir / 'aphorism', aphorism_url_prefix, 'kr')
-
-    for aphorism in aphorisms:
-        md_path = content_dir / 'aphorism' / f"{aphorism['slug']}.md"
-        meta, html_body = read_md(md_path)
-        out_file = out_root / 'aphorism' / f"{aphorism['slug']}.html"
-        aphorism_date = datetime.strptime(aphorism['date'], '%Y-%m-%d').strftime('%Y년 %-m월 %-d일') if aphorism.get('date') else ''
-        render('essay.html', out_file,
-               title=aphorism['title'],
-               essay_title=aphorism['title'],
-               essay_date=aphorism_date,
-               content=html_body,
+    # Aphorism is a single running file of quotes (content/kr/aphorism.md), not
+    # a dated collection. The old per-entry .md files under content/kr/aphorism/
+    # are kept on disk as an archive but are no longer read by the build.
+    aphorism_path = content_dir / 'aphorism.md'
+    if aphorism_path.exists():
+        meta, aphorism_html = read_md(aphorism_path)
+        render('simple.html', out_root / 'aphorism.html',
+               title=meta.get('title', '아포리즘'),
+               content=aphorism_html,
                lang='kr',
-               page_slug=f"aphorism/{aphorism['slug']}.html",
+               page_slug='aphorism.html',
                show_lang_toggle=True,
                include_mathjax=False,
                include_accordion=False,
@@ -340,16 +305,6 @@ def build_kr_essays():
            entries_by_year=group_by_year(essays),
            lang='kr',
            page_slug='essays.html',
-           show_lang_toggle=True,
-           include_mathjax=False,
-           include_accordion=False,
-           custom_styles=None)
-
-    render('list.html', out_root / 'aphorism.html',
-           title='아포리즘',
-           entries_by_year=group_by_year(aphorisms),
-           lang='kr',
-           page_slug='aphorism.html',
            show_lang_toggle=True,
            include_mathjax=False,
            include_accordion=False,
