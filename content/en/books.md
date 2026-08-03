@@ -86,33 +86,34 @@ title: Books
     - Similar to the 'How To Get Rich' type of books, they lack substance and depth.
 
 ### Books I planning to read
-- - Alibaba
+- 괴델 에셔 바흐
+- Advice for a Young Investigator (Mit Press)
+- The Art of Scientific Investigation — W. I. B. Beveridge
+- Skunk Works: A Personal Memoir of My Years at Lockheed
+- The Information: A History, a Theory, a Flood
+- The Sovereign Individual: Mastering the Transition to the Information Age
+- A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
+- The Idea Factory: Bell Labs and the Great Age of American Innovation
+
+- Nomad Letters: The Full Collection of the Nomad Investment Partnership Letters to Partners, 2001–2014
+- The Anduril Thesis
+- Alibaba
 - The Dream Machine
 - Material World (물질의 세계) - 에드 콘웨이
 - Swimming Across
 - The Power Broker: Robert Moses and the Fall of New York
 - The Polymath: Unlocking the Power of Human Versatility
-- The Information: A History, a Theory, a Flood
-- The Sovereign Individual: Mastering the Transition to the Information Age
-- A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
 - 문명의 충돌 - 새뮤얼 헌팅
 - The End of History and the Last Man - Francis Fukuyama
 - The Battle of Bretton Woods - Benn Steil
 - The Bretton Woods International Monetary System: A Historical Overview - Michael D. Bordo
-- Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
 - 도덕경 - 노자 
-- The Idea Factory: Bell Labs and the Great Age of American Innovation
-Engineering in Plain Sight: An Illustrated Field Guide to the Constructed Environment
-- 괴델 에셔 바흐
-- Nomad Letters: The Full Collection of the Nomad Investment Partnership Letters to Partners, 2001–2014
-- Skunk Works: A Personal Memoir of My Years at Lockheed
+- Engineering in Plain Sight: An Illustrated Field Guide to the Constructed Environment
 - Staff Engineer: Leadership beyond the management track
-- The Anduril Thesis
 - The Science of Rapid Skill Acquisition: Advanced Methods to Learn, Remember, and - Master New Skills and Information (Learning how to Learn)
-- Advice for a Young Investigator (Mit Press)
-- The Art of Scientific Investigation — W. I. B. Beveridge
 - Talent: How to Identify Energizers, Creatives, and Winners Around the World (Tyler Cowen)
 - [ABC of reading](https://en.wikipedia.org/wiki/ABC_of_Reading)
+- Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
 
 ### Good reading lists
 - [Patrick Collison's bookshelf](https://patrickcollison.com/bookshelf)

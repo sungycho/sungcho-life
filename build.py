@@ -5,6 +5,7 @@ Supports bilingual output: English at root, Korean at /kr/.
 """
 
 import os
+import re
 import markdown
 import yaml
 from pathlib import Path
@@ -15,6 +16,55 @@ from collections import defaultdict
 base_dir = Path(__file__).parent
 template_dir = base_dir / 'templates'
 env = Environment(loader=FileSystemLoader(template_dir))
+
+# Fixed disclaimer text for LLM-translated posts, selected per-post via the
+# `translation_disclaimer: english` / `translation_disclaimer: korean` frontmatter
+# field. Edit the text here to update it everywhere at once.
+DISCLAIMERS = {
+    'english': 'This English version was translated by a large language model and may not perfectly match the original Korean text.',
+    'korean': '이 한국어 글은 LLM을 사용해 번역되었으며 영어 원문과 정확히 일치하지 않을 수 있습니다.',
+}
+
+# First Published / Last Edited labels, set via the `first_published` and
+# `last_edited` frontmatter fields, localized by the content file's language.
+META_LABELS = {
+    'en': {'first_published': 'First Published', 'last_edited': 'Last Edited'},
+    'kr': {'first_published': '최초 작성', 'last_edited': '최종 수정'},
+}
+
+LEADING_BLOCKQUOTE_RE = re.compile(r'^(?:>.*\n?)+')
+
+
+def render_inline_markdown(text):
+    """Convert a single line of markdown (e.g. links) to inline HTML, no <p> wrapper."""
+    html = markdown.markdown(text, extensions=['tables', 'fenced_code'])
+    if html.startswith('<p>') and html.endswith('</p>'):
+        html = html[len('<p>'):-len('</p>')]
+    return html
+
+
+def build_meta_html(meta, lang):
+    """Build the disclaimer(s) + first-published/last-edited block from frontmatter fields."""
+    parts = []
+
+    disclaimer_key = meta.get('translation_disclaimer')
+    if disclaimer_key in DISCLAIMERS:
+        parts.append(f'<div class="disclaimer">{DISCLAIMERS[disclaimer_key]}</div>')
+
+    other_disclaimer = meta.get('other_disclaimer')
+    if other_disclaimer:
+        parts.append(f'<div class="disclaimer">{render_inline_markdown(other_disclaimer)}</div>')
+
+    labels = META_LABELS[lang]
+    meta_lines = []
+    if meta.get('first_published'):
+        meta_lines.append(f"{labels['first_published']}: {meta['first_published']}")
+    if meta.get('last_edited'):
+        meta_lines.append(f"{labels['last_edited']}: {meta['last_edited']}")
+    if meta_lines:
+        parts.append('<div class="post-meta">' + '<br>\n'.join(meta_lines) + '</div>')
+
+    return '\n\n'.join(parts)
 
 
 def read_md(filepath):
@@ -30,6 +80,15 @@ def read_md(filepath):
         if len(parts) >= 3:
             meta = yaml.safe_load(parts[1]) or {}
             body = parts[2].strip()
+
+    lang = 'kr' if '/content/kr/' in Path(filepath).as_posix() else 'en'
+    meta_html = build_meta_html(meta, lang)
+    if meta_html:
+        # Insert after a leading epigraph blockquote (life entries), if present,
+        # otherwise at the very top of the body.
+        m = LEADING_BLOCKQUOTE_RE.match(body)
+        insert_at = m.end() if m else 0
+        body = body[:insert_at] + '\n' + meta_html + '\n\n' + body[insert_at:]
 
     html = markdown.markdown(body, extensions=['tables', 'fenced_code', 'footnotes'])
     return meta, html
