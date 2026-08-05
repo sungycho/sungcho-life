@@ -30,7 +30,7 @@
 
 
 <내가 만들고 싶은 회사의 모습>
-- scientific mindset + intellectual curiosity + hyper-competitiveness가 공존 (+ 세상에 대한 관심 [사랑까진 아님]) [Quote: PLTR essay: https://nabeelqu.substack.com/p/reflections-on-palantir]
+- scientific mindset + intellectual curiosity + hyper-competitiveness(이게 ambition이랑 같은건가?)가 공존 (+ 세상에 대한 관심 [사랑까진 아님]) [Quote: PLTR essay: https://nabeelqu.substack.com/p/reflections-on-palantir]
     - 조건을 추가할 수록, 그리고 인재에 대한 bar를 높일 수록 뽑을 수 있는 pool의 사람은 적어진다. 하지만 한편으론 예전보다 채용이 쉬워지는 force도 존재한다. specific skillset (e.g., 코딩 등)의 중요성이 점점 내려가고 대신 raw intelligence의 중요성이 올라감. 필요한 건 가르치면 됨.
 - 서로가 격의 없이 반말함. (아님 영어로 소통)
     - 나이 같은 거 필요없음
