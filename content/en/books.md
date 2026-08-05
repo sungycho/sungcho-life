@@ -114,6 +114,8 @@ title: Books
 - Talent: How to Identify Energizers, Creatives, and Winners Around the World (Tyler Cowen)
 - [ABC of reading](https://en.wikipedia.org/wiki/ABC_of_Reading)
 - Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
+- Cicero: The Life and Times of Rome's Greatest Politician
+- Dictator (Cicero Trilogy)
 
 ### Good reading lists
 - [Patrick Collison's bookshelf](https://patrickcollison.com/bookshelf)
