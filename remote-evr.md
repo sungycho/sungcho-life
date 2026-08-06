@@ -397,6 +397,65 @@ https://www.lesswrong.com/w/bayesian-view-of-scientific-virtues
 - https://www.anthropic.com/research/emergent-misalignment-reward-hacking
 - https://www.anthropic.com/research/auditing-hidden-objectives
 
+
+
+- Information Theoretic approach to Deep Learning
+    - https://arxiv.org/pdf/1705.07809
+    - https://arxiv.org/pdf/1503.02406
+    - https://arxiv.org/pdf/2003.12537
+    - https://arxiv.org/pdf/2305.18887
+    - https://arxiv.org/pdf/1703.00810
+    - https://arxiv.org/pdf/physics/0004057
+    - https://artemyk.github.io/assets/pdf/papers/Saxe%20et%20al_2019_On%20the%20information%20bottleneck%20theory%20of%20deep%20learning.pdf
+    - https://arxiv.org/pdf/1706.01350
+    - https://arxiv.org/pdf/physics/0004057
+    - The best reading path is:
+
+1. **Start with the original Information Bottleneck idea**
+   **Tishby, Pereira, Bialek — “The Information Bottleneck Method”**.
+   This is the conceptual root: learn a compressed representation of (X) that preserves information about (Y). It is not specifically about deep learning, but it defines the lens you need. ([arXiv][1])
+
+2. **Then read the canonical deep-learning version**
+   **Tishby & Zaslavsky — “Deep Learning and the Information Bottleneck Principle”**.
+   This is the central paper for the information-theoretic view of deep learning: hidden layers are analyzed through mutual information with inputs and labels, and depth is interpreted via successive information bottlenecks. ([arXiv][2])
+
+3. **Read the famous “information plane” paper next**
+   **Shwartz-Ziv & Tishby — “Opening the Black Box of Deep Neural Networks via Information.”**
+   This is the paper/blog-discussion generator: it argues that training has a fitting phase and then a compression phase, visualized in the information plane (I(X;T)) vs. (I(T;Y)). ([arXiv][3])
+
+4. **Immediately read the main critique**
+   **Saxe et al. — “On the Information Bottleneck Theory of Deep Learning.”**
+   Do not skip this. It tests the strong IB claims and argues that compression is not universal; for example, it depends on activation nonlinearities and measurement choices. This keeps you from walking away with the oversimplified “deep learning = compression” story. ([OpenReview][4])
+
+5. **Then read the more modern/statistical version**
+   **Achille & Soatto — “Emergence of Invariance and Disentanglement in Deep Representations.”**
+   This is, in my view, the most useful bridge from IB-flavored intuitions to representation learning: invariance to nuisance variables, minimal sufficient representations, disentanglement, information in weights, PAC-Bayes connections, and generalization. ([arXiv][5])
+
+6. **For a unifying survey-style treatment**
+   **Kirsch, Lyle, Gal — “Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning.”**
+   Good after the above papers because it explains why different “information bottleneck” objectives in the literature are not all the same, and why estimating the relevant information quantities in modern neural nets is hard. ([arXiv][6])
+
+7. **For a newer learning-theory angle**
+   **Kawaguchi, Deng, Ji, Huang — “How Does Information Bottleneck Help Deep Learning?”**
+   This is useful if you want actual generalization bounds rather than only conceptual stories. The authors frame IB as one way, not the only or necessary way, to control generalization error. ([arXiv][7])
+
+My recommended order:
+
+**Tishby–Pereira–Bialek → Tishby–Zaslavsky → Shwartz-Ziv–Tishby → Saxe et al. → Achille–Soatto → Kirsch–Lyle–Gal → Kawaguchi et al.**
+
+For a quick nontechnical warm-up before the papers, the Quanta/Wired piece on deep learning, renormalization, and information bottlenecks is readable, but treat it as intuition-building, not as the theory itself. ([wired.com][8])
+
+[1]: https://arxiv.org/abs/physics/0004057?utm_source=chatgpt.com "The information bottleneck method"
+[2]: https://arxiv.org/abs/1503.02406?utm_source=chatgpt.com "Deep Learning and the Information Bottleneck Principle"
+[3]: https://arxiv.org/abs/1703.00810?utm_source=chatgpt.com "Opening the Black Box of Deep Neural Networks via Information"
+[4]: https://openreview.net/forum?id=ry_WPG-A-&utm_source=chatgpt.com "On the Information Bottleneck Theory of Deep Learning"
+[5]: https://arxiv.org/abs/1706.01350?utm_source=chatgpt.com "Emergence of Invariance and Disentanglement in Deep Representations"
+[6]: https://arxiv.org/abs/2003.12537?utm_source=chatgpt.com "Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning"
+[7]: https://arxiv.org/abs/2305.18887?utm_source=chatgpt.com "How Does Information Bottleneck Help Deep Learning?"
+[8]: https://www.wired.com/2014/12/deep-learning-renormalization?utm_source=chatgpt.com "AI Recognizes Cats the Same Way Physicists Calculate the Cosmos"
+
+
+
 <AI Reads>
 - https://www.anthropic.com/research/next-generation-constitutional-classifiers
 - https://arxiv.org/pdf/2504.01849
@@ -440,11 +499,18 @@ https://scieye.wordpress.com/2026/05/29/proof-before-the-bake-scientists-build-c
 https://arxiv.org/pdf/2406.14546
 
 
+
+<Physics & Quantum Mechanics>
+- https://lookingglassuniver.wixsite.com/blog/post/how-to-learn-quantum-mechanics-on-your-own
+- https://www.feynmanlectures.caltech.edu/
+
+
 <Cool Stuff I'm following>
 - https://ai.objectives.institute/talk-to-the-city
 - https://www.arena.education/
 - https://alpha.school/the-program/
 - https://www.primeintellect.ai/blog/intellect-2
+- https://worksinprogress.co/
 
 In fact, there are many examples, in both the natural and artificial worlds, of systems we understand (and sometimes control) at the level of principles but not in detail: economies, snowflakes, cellular automata, human evolution, human brain development, and so on. (source: https://darioamodei.com/post/the-urgency-of-interpretability#fn:1)
 + Bingbin Liu (7/17/26): "Although 2-layer MLPs are not the same as the actual Transformers we're using nowadays, the former give useful insights on the latter's behavior" 
