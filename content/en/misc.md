@@ -24,7 +24,13 @@ U Nevada
 
 
 Favorite Paradoxes:
-*I think the true 
+*I think the truth is often counterintuitive. They are covert, and we need to think extremely clearly to dig it out. That's why I love paradoxes.
+- Jevons' paradox
+- Goodhart's Law
+- Survivorship bias
+- Conway’s law
+- Ship of Theseus
+
 
 Favorite Apps:
 

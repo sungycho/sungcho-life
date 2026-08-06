@@ -437,7 +437,7 @@ https://scieye.wordpress.com/2026/05/29/proof-before-the-bake-scientists-build-c
 - https://en.wikipedia.org/wiki/Socialist_calculation_debate#:~:text=The%20socialist%20calculation%20debate%2C%20sometimes,of%20the%20means%20of%20production.
 
 
-
+https://arxiv.org/pdf/2406.14546
 
 
 <Cool Stuff I'm following>

@@ -16,7 +16,7 @@ title: Books
 - *톨스토이 고백록* — 레프 톨스토이
 - *Grit* — Angela Duckworth
 - *The Rebel* — Albert Camus
-- *Poor Charlie's Almanack* — Charlie Munger
+- *Poor Charlie's Almanack* — Charlie Munger ([available for free at Stripe Press](https://www.stripe.press/poor-charlies-almanack/cover))
 - *Zen and Motorcycle Maintenance* — Robert M. Pirsig
 - *The God Delusion* — Richard Dawkins
 - *일을 잘한다는 것* — 야마구치 슈, 구스노키 겐
