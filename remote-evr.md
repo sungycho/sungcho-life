@@ -260,6 +260,10 @@ investment banking에서 사람들이 유독 toxic하고 틀린 거 인정 안�
     - https://nabeelqu.substack.com/p/reflections-on-palantir
     - https://tedmabrey.substack.com/p/sorry-that-isnt-an-fde?utm_source=substack&utm_campaign=post_embed&utm_medium=web
 
+
+https://www.8vc.com/resources/lessons-from-peter-thiel
+
+
 <Good Essays/Reads - Philosophy/Humanities/History>
 - https://www.econlib.org/library/Essays/hykKnw.html
 
@@ -290,6 +294,11 @@ https://www.8vc.com/resources/lessons-from-peter-thiel
 
 https://www.tandfonline.com/doi/abs/10.2753/RES1060-9393081035
 
+https://www.jofreeman.com/joreen/tyranny.htm
+
+https://nabeelqu.co/education
+
+https://www.readthesequences.com/Book-I-Map-And-Territory
 
 <Good Essays/Reads - AI & Society>
 - https://intelligence-curse.ai/
@@ -301,7 +310,8 @@ https://www.tandfonline.com/doi/abs/10.2753/RES1060-9393081035
         - Both has a lot of great reference/citations
 - The History of Future series
     - https://www.nosetgauge.com/p/a-history-of-the-future-2025-2027
-    - 
+    - https://www.nosetgauge.com/p/a-history-of-the-future-2027-2030
+    - https://www.nosetgauge.com/p/a-history-of-the-future-2030-2040
 
 - https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
 
@@ -356,6 +366,9 @@ https://www.pi.website/blog/pi0
 - https://arxiv.org/pdf/1802.05968
 
 
+https://www.lesswrong.com/w/bayesian-view-of-scientific-virtues
+
+
 <Good Essays/Reads - Miscellaneous Interesting Concepts/Stuff>
 - https://en.wikipedia.org/wiki/Ephemeralization
 - https://en.wikipedia.org/wiki/Lyapunov_exponent
@@ -398,7 +411,21 @@ https://www.pi.website/blog/pi0
 
 - https://www.anthropic.com/research/mapping-mind-language-model
 - https://www.anthropic.com/research/auditing-hidden-objectives
+- https://www.anthropic.com/institute/recursive-self-improvement
 
+https://arxiv.org/pdf/2606.02859
+
+
+https://scieye.wordpress.com/2026/05/29/proof-before-the-bake-scientists-build-criteria-to-track-competence-of-ai-in-research-math/
+
+
+- Chinchilla Scaling Law
+    - https://lifearchitect.ai/chinchilla/
+    - https://medium.com/@raniahossam/chinchilla-scaling-laws-for-large-language-models-llms-40c434e4e1c1
+    - https://lilianweng.github.io/posts/2026-06-24-scaling-laws/
+    - https://www.geeksforgeeks.org/artificial-intelligence/chinchilla-scaling-laws/
+    - https://mbrenndoerfer.com/writing/power-laws-deep-learning-neural-network-scaling
+    - https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications
 
 <AI-relevant Reads>
 - https://worksinprogress.co/issue/the-golden-age-of-vaccine-development/

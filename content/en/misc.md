@@ -23,6 +23,8 @@ Caltech
 U Nevada
 
 
+Favorite Paradoxes:
+*I think the true 
 
 Favorite Apps:
 
