@@ -107,7 +107,7 @@ a:hover {
   font-style: italic;
 }
 
-#content .translation-notice {
+#content .disclaimer {
   font-size: 0.8em;
   font-style: italic;
   color: #6b5842;

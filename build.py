@@ -34,6 +34,21 @@ META_LABELS = {
 
 LEADING_BLOCKQUOTE_RE = re.compile(r'^(?:>.*\n?)+')
 
+# A markdown image alone on its own line (`![caption](src)`) renders as
+# `<p><img alt="caption" src="src" /></p>`. Promote that to a real
+# <figure>/<figcaption> so the alt text shows as a visible caption.
+IMG_PARAGRAPH_RE = re.compile(r'<p>(<img [^>]*/?>)</p>')
+
+
+def promote_image_captions(html):
+    def repl(m):
+        img_tag = m.group(1)
+        alt_match = re.search(r'alt="([^"]*)"', img_tag)
+        alt = alt_match.group(1) if alt_match else ''
+        caption = f'<figcaption>{alt}</figcaption>' if alt else ''
+        return f'<figure>{img_tag}{caption}</figure>'
+    return IMG_PARAGRAPH_RE.sub(repl, html)
+
 
 def render_inline_markdown(text):
     """Convert a single line of markdown (e.g. links) to inline HTML, no <p> wrapper."""
@@ -91,6 +106,7 @@ def read_md(filepath):
         body = body[:insert_at] + '\n' + meta_html + '\n\n' + body[insert_at:]
 
     html = markdown.markdown(body, extensions=['tables', 'fenced_code', 'footnotes'])
+    html = promote_image_captions(html)
     return meta, html
 
 

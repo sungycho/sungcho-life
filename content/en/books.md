@@ -43,6 +43,7 @@ title: Books
 - *Originals* — Adam Grant
 - *The Quants* - Scott Patterson
 - *The Chip War* - Chris Miller
+- *Liar's Poker* - Michael Lewis
 
 
 ### Science & Technology
