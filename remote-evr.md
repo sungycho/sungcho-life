@@ -30,7 +30,7 @@
 
 
 <내가 만들고 싶은 회사의 모습>
-- scientific mindset + intellectual curiosity + hyper-competitiveness가 공존 (+ 세상에 대한 관심 [사랑까진 아님]) [Quote: PLTR essay: https://nabeelqu.substack.com/p/reflections-on-palantir]
+- scientific mindset + intellectual curiosity + hyper-competitiveness(이게 ambition이랑 같은건가?)가 공존 (+ 세상에 대한 관심 [사랑까진 아님]) [Quote: PLTR essay: https://nabeelqu.substack.com/p/reflections-on-palantir]
     - 조건을 추가할 수록, 그리고 인재에 대한 bar를 높일 수록 뽑을 수 있는 pool의 사람은 적어진다. 하지만 한편으론 예전보다 채용이 쉬워지는 force도 존재한다. specific skillset (e.g., 코딩 등)의 중요성이 점점 내려가고 대신 raw intelligence의 중요성이 올라감. 필요한 건 가르치면 됨.
 - 서로가 격의 없이 반말함. (아님 영어로 소통)
     - 나이 같은 거 필요없음
@@ -260,6 +260,10 @@ investment banking에서 사람들이 유독 toxic하고 틀린 거 인정 안�
     - https://nabeelqu.substack.com/p/reflections-on-palantir
     - https://tedmabrey.substack.com/p/sorry-that-isnt-an-fde?utm_source=substack&utm_campaign=post_embed&utm_medium=web
 
+
+https://www.8vc.com/resources/lessons-from-peter-thiel
+
+
 <Good Essays/Reads - Philosophy/Humanities/History>
 - https://www.econlib.org/library/Essays/hykKnw.html
 
@@ -290,6 +294,11 @@ https://www.8vc.com/resources/lessons-from-peter-thiel
 
 https://www.tandfonline.com/doi/abs/10.2753/RES1060-9393081035
 
+https://www.jofreeman.com/joreen/tyranny.htm
+
+https://nabeelqu.co/education
+
+https://www.readthesequences.com/Book-I-Map-And-Territory
 
 <Good Essays/Reads - AI & Society>
 - https://intelligence-curse.ai/
@@ -301,7 +310,8 @@ https://www.tandfonline.com/doi/abs/10.2753/RES1060-9393081035
         - Both has a lot of great reference/citations
 - The History of Future series
     - https://www.nosetgauge.com/p/a-history-of-the-future-2025-2027
-    - 
+    - https://www.nosetgauge.com/p/a-history-of-the-future-2027-2030
+    - https://www.nosetgauge.com/p/a-history-of-the-future-2030-2040
 
 - https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
 
@@ -356,6 +366,9 @@ https://www.pi.website/blog/pi0
 - https://arxiv.org/pdf/1802.05968
 
 
+https://www.lesswrong.com/w/bayesian-view-of-scientific-virtues
+
+
 <Good Essays/Reads - Miscellaneous Interesting Concepts/Stuff>
 - https://en.wikipedia.org/wiki/Ephemeralization
 - https://en.wikipedia.org/wiki/Lyapunov_exponent
@@ -384,6 +397,65 @@ https://www.pi.website/blog/pi0
 - https://www.anthropic.com/research/emergent-misalignment-reward-hacking
 - https://www.anthropic.com/research/auditing-hidden-objectives
 
+
+
+- Information Theoretic approach to Deep Learning
+    - https://arxiv.org/pdf/1705.07809
+    - https://arxiv.org/pdf/1503.02406
+    - https://arxiv.org/pdf/2003.12537
+    - https://arxiv.org/pdf/2305.18887
+    - https://arxiv.org/pdf/1703.00810
+    - https://arxiv.org/pdf/physics/0004057
+    - https://artemyk.github.io/assets/pdf/papers/Saxe%20et%20al_2019_On%20the%20information%20bottleneck%20theory%20of%20deep%20learning.pdf
+    - https://arxiv.org/pdf/1706.01350
+    - https://arxiv.org/pdf/physics/0004057
+    - The best reading path is:
+
+1. **Start with the original Information Bottleneck idea**
+   **Tishby, Pereira, Bialek — “The Information Bottleneck Method”**.
+   This is the conceptual root: learn a compressed representation of (X) that preserves information about (Y). It is not specifically about deep learning, but it defines the lens you need. ([arXiv][1])
+
+2. **Then read the canonical deep-learning version**
+   **Tishby & Zaslavsky — “Deep Learning and the Information Bottleneck Principle”**.
+   This is the central paper for the information-theoretic view of deep learning: hidden layers are analyzed through mutual information with inputs and labels, and depth is interpreted via successive information bottlenecks. ([arXiv][2])
+
+3. **Read the famous “information plane” paper next**
+   **Shwartz-Ziv & Tishby — “Opening the Black Box of Deep Neural Networks via Information.”**
+   This is the paper/blog-discussion generator: it argues that training has a fitting phase and then a compression phase, visualized in the information plane (I(X;T)) vs. (I(T;Y)). ([arXiv][3])
+
+4. **Immediately read the main critique**
+   **Saxe et al. — “On the Information Bottleneck Theory of Deep Learning.”**
+   Do not skip this. It tests the strong IB claims and argues that compression is not universal; for example, it depends on activation nonlinearities and measurement choices. This keeps you from walking away with the oversimplified “deep learning = compression” story. ([OpenReview][4])
+
+5. **Then read the more modern/statistical version**
+   **Achille & Soatto — “Emergence of Invariance and Disentanglement in Deep Representations.”**
+   This is, in my view, the most useful bridge from IB-flavored intuitions to representation learning: invariance to nuisance variables, minimal sufficient representations, disentanglement, information in weights, PAC-Bayes connections, and generalization. ([arXiv][5])
+
+6. **For a unifying survey-style treatment**
+   **Kirsch, Lyle, Gal — “Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning.”**
+   Good after the above papers because it explains why different “information bottleneck” objectives in the literature are not all the same, and why estimating the relevant information quantities in modern neural nets is hard. ([arXiv][6])
+
+7. **For a newer learning-theory angle**
+   **Kawaguchi, Deng, Ji, Huang — “How Does Information Bottleneck Help Deep Learning?”**
+   This is useful if you want actual generalization bounds rather than only conceptual stories. The authors frame IB as one way, not the only or necessary way, to control generalization error. ([arXiv][7])
+
+My recommended order:
+
+**Tishby–Pereira–Bialek → Tishby–Zaslavsky → Shwartz-Ziv–Tishby → Saxe et al. → Achille–Soatto → Kirsch–Lyle–Gal → Kawaguchi et al.**
+
+For a quick nontechnical warm-up before the papers, the Quanta/Wired piece on deep learning, renormalization, and information bottlenecks is readable, but treat it as intuition-building, not as the theory itself. ([wired.com][8])
+
+[1]: https://arxiv.org/abs/physics/0004057?utm_source=chatgpt.com "The information bottleneck method"
+[2]: https://arxiv.org/abs/1503.02406?utm_source=chatgpt.com "Deep Learning and the Information Bottleneck Principle"
+[3]: https://arxiv.org/abs/1703.00810?utm_source=chatgpt.com "Opening the Black Box of Deep Neural Networks via Information"
+[4]: https://openreview.net/forum?id=ry_WPG-A-&utm_source=chatgpt.com "On the Information Bottleneck Theory of Deep Learning"
+[5]: https://arxiv.org/abs/1706.01350?utm_source=chatgpt.com "Emergence of Invariance and Disentanglement in Deep Representations"
+[6]: https://arxiv.org/abs/2003.12537?utm_source=chatgpt.com "Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning"
+[7]: https://arxiv.org/abs/2305.18887?utm_source=chatgpt.com "How Does Information Bottleneck Help Deep Learning?"
+[8]: https://www.wired.com/2014/12/deep-learning-renormalization?utm_source=chatgpt.com "AI Recognizes Cats the Same Way Physicists Calculate the Cosmos"
+
+
+
 <AI Reads>
 - https://www.anthropic.com/research/next-generation-constitutional-classifiers
 - https://arxiv.org/pdf/2504.01849
@@ -398,7 +470,21 @@ https://www.pi.website/blog/pi0
 
 - https://www.anthropic.com/research/mapping-mind-language-model
 - https://www.anthropic.com/research/auditing-hidden-objectives
+- https://www.anthropic.com/institute/recursive-self-improvement
 
+https://arxiv.org/pdf/2606.02859
+
+
+https://scieye.wordpress.com/2026/05/29/proof-before-the-bake-scientists-build-criteria-to-track-competence-of-ai-in-research-math/
+
+
+- Chinchilla Scaling Law
+    - https://lifearchitect.ai/chinchilla/
+    - https://medium.com/@raniahossam/chinchilla-scaling-laws-for-large-language-models-llms-40c434e4e1c1
+    - https://lilianweng.github.io/posts/2026-06-24-scaling-laws/
+    - https://www.geeksforgeeks.org/artificial-intelligence/chinchilla-scaling-laws/
+    - https://mbrenndoerfer.com/writing/power-laws-deep-learning-neural-network-scaling
+    - https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications
 
 <AI-relevant Reads>
 - https://worksinprogress.co/issue/the-golden-age-of-vaccine-development/
@@ -410,7 +496,13 @@ https://www.pi.website/blog/pi0
 - https://en.wikipedia.org/wiki/Socialist_calculation_debate#:~:text=The%20socialist%20calculation%20debate%2C%20sometimes,of%20the%20means%20of%20production.
 
 
+https://arxiv.org/pdf/2406.14546
 
+
+
+<Physics & Quantum Mechanics>
+- https://lookingglassuniver.wixsite.com/blog/post/how-to-learn-quantum-mechanics-on-your-own
+- https://www.feynmanlectures.caltech.edu/
 
 
 <Cool Stuff I'm following>
@@ -418,6 +510,7 @@ https://www.pi.website/blog/pi0
 - https://www.arena.education/
 - https://alpha.school/the-program/
 - https://www.primeintellect.ai/blog/intellect-2
+- https://worksinprogress.co/
 
 In fact, there are many examples, in both the natural and artificial worlds, of systems we understand (and sometimes control) at the level of principles but not in detail: economies, snowflakes, cellular automata, human evolution, human brain development, and so on. (source: https://darioamodei.com/post/the-urgency-of-interpretability#fn:1)
 + Bingbin Liu (7/17/26): "Although 2-layer MLPs are not the same as the actual Transformers we're using nowadays, the former give useful insights on the latter's behavior" 

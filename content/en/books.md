@@ -16,7 +16,7 @@ title: Books
 - *톨스토이 고백록* — 레프 톨스토이
 - *Grit* — Angela Duckworth
 - *The Rebel* — Albert Camus
-- *Poor Charlie's Almanack* — Charlie Munger
+- *Poor Charlie's Almanack* — Charlie Munger ([available for free at Stripe Press](https://www.stripe.press/poor-charlies-almanack/cover))
 - *Zen and Motorcycle Maintenance* — Robert M. Pirsig
 - *The God Delusion* — Richard Dawkins
 - *일을 잘한다는 것* — 야마구치 슈, 구스노키 겐
@@ -94,6 +94,12 @@ title: Books
 - The Sovereign Individual: Mastering the Transition to the Information Age
 - A Mind at Play: How Claude Shannon Invented the Information Age — Jimmy Soni & Rob Goodman
 - The Idea Factory: Bell Labs and the Great Age of American Innovation
+- "The Art of Probability for Scientists and Engineers" by Richard W. Hamming
+- An Investigation of the Laws of Thought: on Which are Founded the Mathematical Theories of Logic and Probabilities by George Boole
+- To Engineer Is Human — Henry Petroski
+- How to Solve It — George Pólya
+- Letters to a Young Scientist — E. O. Wilson
+- The Scientist as Rebel — Freeman Dyson
 
 - Nomad Letters: The Full Collection of the Nomad Investment Partnership Letters to Partners, 2001–2014
 - The Anduril Thesis
@@ -114,6 +120,9 @@ title: Books
 - Talent: How to Identify Energizers, Creatives, and Winners Around the World (Tyler Cowen)
 - [ABC of reading](https://en.wikipedia.org/wiki/ABC_of_Reading)
 - Chums: How A Tiny Caste of Oxford Tories Took Over The UK (옥스포드 초엘리트 - 밀) 
+- Cicero: The Life and Times of Rome's Greatest Politician
+- Dictator (Cicero Trilogy)
+- On the Edge: The Art of Risking Everything
 
 ### Good reading lists
 - [Patrick Collison's bookshelf](https://patrickcollison.com/bookshelf)
