@@ -1,6 +1,6 @@
 ---
 title: "My Life Statement"
-first_published: "2026-08-06"
+first_published: "2026-04-17"
 last_edited: "2026-08-07"
 math: true
 ---

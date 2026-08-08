@@ -136,7 +136,7 @@ def scan_entries(content_subdir, url_prefix, lang):
             'title': meta.get('title', slug),
             'date': str(meta.get('date', '2026-01-01')),
             'description': meta.get('description', ''),
-            'url': f"{url_prefix}{slug}/",
+            'url': f"{url_prefix}{slug}",
             'arxiv': meta.get('arxiv', ''),
             'openreview': meta.get('openreview', ''),
         }
@@ -183,7 +183,7 @@ def build_life_timeline_html(entries, lang):
     """Generate HTML list of life period links for the about page."""
     prefix = '/kr/life/' if lang == 'kr' else '/life/'
     items = ''.join(
-        f'<li><a href="{prefix}{e["slug"]}/">{e["title"]}</a></li>\n'
+        f'<li><a href="{prefix}{e["slug"]}">{e["title"]}</a></li>\n'
         for e in entries
     )
     return f'<ul>\n{items}</ul>'
@@ -208,7 +208,7 @@ def build_lang(lang):
                essay_title=entry['date_range'],
                content=html_body,
                lang=nav_lang,
-               page_slug=f"life/{entry['slug']}/",
+               page_slug=f"life/{entry['slug']}",
                show_lang_toggle=True,
                include_mathjax=meta.get('math', False),
                include_accordion=False,
@@ -224,7 +224,7 @@ def build_lang(lang):
                essay_title=title,
                content=html_body,
                lang=nav_lang,
-               page_slug='life-statement/',
+               page_slug='life-statement',
                show_lang_toggle=True,
                include_mathjax=meta.get('math', False),
                include_accordion=False,
@@ -247,8 +247,8 @@ def build_lang(lang):
         if page == 'about' and life_entries:
             html_body += build_life_timeline_html(life_entries, lang)
 
-        out_file = out_root / 'index.html' if page == 'index' else out_root / f'{page}.html'
-        page_slug = 'index.html' if page == 'index' else f'{page}.html'
+        out_file = out_root / 'index.html' if page == 'index' else out_root / page / 'index.html'
+        page_slug = 'index.html' if page == 'index' else f'{page}'
 
         render('simple.html', out_file,
                title=title,
@@ -268,7 +268,7 @@ def build_lang(lang):
         md_path = content_dir / 'essays' / f"{essay['slug']}.md"
         meta, html_body = read_md(md_path)
         out_file = out_root / 'essays' / essay['slug'] / 'index.html'
-        page_slug = f"essays/{essay['slug']}/"
+        page_slug = f"essays/{essay['slug']}"
         essay_date = datetime.strptime(essay['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if essay.get('date') else ''
 
         render('essay.html', out_file,
@@ -291,7 +291,7 @@ def build_lang(lang):
         md_path = content_dir / 'papers' / f"{paper['slug']}.md"
         meta, html_body = read_md(md_path)
         out_file = out_root / 'papers' / paper['slug'] / 'index.html'
-        page_slug = f"papers/{paper['slug']}/"
+        page_slug = f"papers/{paper['slug']}"
         essay_date = datetime.strptime(paper['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if paper.get('date') else ''
 
         render('essay.html', out_file,
@@ -307,11 +307,11 @@ def build_lang(lang):
                custom_styles=None)
 
     # ── Listing pages ─────────────────────────────────────────────────────────
-    render('list.html', out_root / 'essays.html',
+    render('list.html', out_root / 'essays' / 'index.html',
            title='Essays',
            entries_by_year=group_by_year(essays),
            lang=nav_lang,
-           page_slug='essays.html',
+           page_slug='essays',
            show_lang_toggle=True,
            include_mathjax=False,
            include_accordion=False,
@@ -322,12 +322,12 @@ def build_lang(lang):
     if papers_read_path.exists():
         _, papers_read_html = read_md(papers_read_path)
 
-    render('list.html', out_root / 'papers.html',
+    render('list.html', out_root / 'papers' / 'index.html',
            title='Research',
            entries_by_year=group_by_year(papers),
            read_papers_html=papers_read_html,
            lang=nav_lang,
-           page_slug='papers.html',
+           page_slug='papers',
            show_lang_toggle=False,
            include_mathjax=False,
            include_accordion=False,
@@ -349,7 +349,7 @@ def build_kr_essays():
                essay_title=entry['date_range'],
                content=html_body,
                lang='kr',
-               page_slug=f"life/{entry['slug']}/",
+               page_slug=f"life/{entry['slug']}",
                show_lang_toggle=True,
                include_mathjax=meta.get('math', False),
                include_accordion=False,
@@ -365,7 +365,7 @@ def build_kr_essays():
                essay_title=title,
                content=html_body,
                lang='kr',
-               page_slug='life-statement/',
+               page_slug='life-statement',
                show_lang_toggle=True,
                include_mathjax=meta.get('math', False),
                include_accordion=False,
@@ -385,7 +385,7 @@ def build_kr_essays():
                essay_date=essay_date,
                content=html_body,
                lang='kr',
-               page_slug=f"essays/{essay['slug']}/",
+               page_slug=f"essays/{essay['slug']}",
                show_lang_toggle=True,
                include_mathjax=meta.get('math', False),
                include_accordion=False,
@@ -397,21 +397,21 @@ def build_kr_essays():
     aphorism_path = content_dir / 'aphorism.md'
     if aphorism_path.exists():
         meta, aphorism_html = read_md(aphorism_path)
-        render('simple.html', out_root / 'aphorism.html',
+        render('simple.html', out_root / 'aphorism' / 'index.html',
                title=meta.get('title', '아포리즘'),
                content=aphorism_html,
                lang='kr',
-               page_slug='aphorism.html',
+               page_slug='aphorism',
                show_lang_toggle=True,
                include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
-    render('list.html', out_root / 'essays.html',
+    render('list.html', out_root / 'essays' / 'index.html',
            title='글',
            entries_by_year=group_by_year(essays),
            lang='kr',
-           page_slug='essays.html',
+           page_slug='essays',
            show_lang_toggle=True,
            include_mathjax=False,
            include_accordion=False,

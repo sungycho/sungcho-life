@@ -1,11 +1,9 @@
 ---
 title: "인생소개서"
-first_published: "2026-08-06"
+first_published: "2026-04-17"
 last_edited: "2026-08-07"
 math: true
 ---
-
-
 
 > 모든 사람이 죽지만 오직 일부만이 진정으로 살아간다
 >> <브레이브하트> (1995)

@@ -9,7 +9,7 @@ title: Books
 - *Why Fish Don’t Exist* — Lulu Miller
 - *The Structure of Scientific Revolutions* - Thomas S. Kuhn
 - <strong style="color: cyan">*The Myth of Sisyphus* - Albert Camus</strong>
-- [*이어령의 마지막 수업* - 이어령](essays/2022-08-24/)
+- [*이어령의 마지막 수업* - 이어령](/essays/2022-08-24)
 - *읽고 쓴다는 것, 그 거룩함과 통쾌함에 대하여* - 고미숙 
 - <strong style="color: cyan">*On the Genealogy of Morality* - Friedrich Nietzsche</strong>
 - *나는 습관을 조금 바꾸기로 했다* — 사사키 후미오
@@ -23,7 +23,7 @@ title: Books
 - *생각하는 힘은 유일한 무기가 된다* — 야마구치 요헤이
 
 ### Business & Strategy
-- <strong style="color: cyan"> [*Zero to One* — Peter Thiel](essays/2022-06-25/) </strong>
+- <strong style="color: cyan"> [*Zero to One* — Peter Thiel](/essays/2022-06-25) </strong>
 - *Only the Paranoid Survive* — Andrew Grove
 - *The Outsiders: Eight Unconventional CEOs and Their Radically Rational Blueprint for Success* — William N. Thorndike
 - *유난한 도전* — 정경화
