@@ -10,7 +10,7 @@ All frontmatter fields marked (optional) may be omitted entirely.
 
 ## Simple page
 content/{lang}/{page}.md, where page is one of:
-index, about, books, courses, resources, aphorism, misc
+index, memoir, books, courses, resources, aphorism, misc
 
 ```
 ---
@@ -40,12 +40,12 @@ Body markdown. Footnotes work: a claim[^1].
 ```
 
 ## Paper
-content/{lang}/papers/YYYY-MM-DD.md
+content/{lang}/research/YYYY-MM-DD.md
 Same fields as an essay, plus:
 
 ```
-arxiv: https://arxiv.org/abs/...        (optional — shown as a link in papers.html)
-openreview: https://openreview.net/...  (optional — shown as a link in papers.html)
+arxiv: https://arxiv.org/abs/...        (optional — shown as a link on the Research listing)
+openreview: https://openreview.net/...  (optional — shown as a link on the Research listing)
 ```
 (No Korean toggle is rendered for papers regardless of language.)
 

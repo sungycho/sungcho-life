@@ -233,7 +233,7 @@ def build_lang(lang):
     # ── Simple pages ──────────────────────────────────────────────────────────
     # 'aphorism' is a single running file of quotes, not a dated collection —
     # it gets a Korean toggle since content/kr/aphorism.md is its counterpart.
-    simple_pages = ['index', 'about', 'books', 'courses', 'resources', 'aphorism', 'misc']
+    simple_pages = ['index', 'memoir', 'books', 'courses', 'resources', 'aphorism', 'misc']
     for page in simple_pages:
         md_path = content_dir / f'{page}.md'
         if not md_path.exists():
@@ -243,8 +243,8 @@ def build_lang(lang):
         meta, html_body = read_md(md_path)
         title = meta.get('title', page.capitalize())
 
-        # Append life timeline to about page
-        if page == 'about' and life_entries:
+        # Append life timeline to memoir page
+        if page == 'memoir' and life_entries:
             html_body += build_life_timeline_html(life_entries, lang)
 
         out_file = out_root / 'index.html' if page == 'index' else out_root / page / 'index.html'
@@ -284,14 +284,14 @@ def build_lang(lang):
                custom_styles=None)
 
     # ── Paper pages ───────────────────────────────────────────────────────────
-    paper_url_prefix = '/papers/' if lang == 'en' else '/kr/papers/'
-    papers = scan_entries(content_dir / 'papers', paper_url_prefix, lang)
+    paper_url_prefix = '/research/' if lang == 'en' else '/kr/research/'
+    papers = scan_entries(content_dir / 'research', paper_url_prefix, lang)
 
     for paper in papers:
-        md_path = content_dir / 'papers' / f"{paper['slug']}.md"
+        md_path = content_dir / 'research' / f"{paper['slug']}.md"
         meta, html_body = read_md(md_path)
-        out_file = out_root / 'papers' / paper['slug'] / 'index.html'
-        page_slug = f"papers/{paper['slug']}"
+        out_file = out_root / 'research' / paper['slug'] / 'index.html'
+        page_slug = f"research/{paper['slug']}"
         essay_date = datetime.strptime(paper['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if paper.get('date') else ''
 
         render('essay.html', out_file,
@@ -322,12 +322,12 @@ def build_lang(lang):
     if papers_read_path.exists():
         _, papers_read_html = read_md(papers_read_path)
 
-    render('list.html', out_root / 'papers' / 'index.html',
+    render('list.html', out_root / 'research' / 'index.html',
            title='Research',
            entries_by_year=group_by_year(papers),
            read_papers_html=papers_read_html,
            lang=nav_lang,
-           page_slug='papers',
+           page_slug='research',
            show_lang_toggle=False,
            include_mathjax=False,
            include_accordion=False,

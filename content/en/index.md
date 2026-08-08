@@ -10,12 +10,10 @@ Born and raised in Seoul, Korea, I moved to the United States in 2023 to pursue 
 
 I'm an aspiring researcher, entrepreneur, investor, engineer, and educator. Feel free to explore my website to learn more about me and my work.
 
-<!--
-# How to Navigate This Website to get to know me better
-
-- If you'd like to think   see my [Life Statement](/life-statement/).
-- If you'd like to know my past journey, please see my [memorir](/about/) (more fun to read than Linkedin bio, I guarantee)
-- If you'd like to know what I've read and written, see the [Books](/books/) and [Essay](/essays/).
--->
+Where to start:
+- **[Life Statement](/life-statement)** — how I think about life.
+- **[Memoir](/memoir)** — where I've been, told in chapters. More fun than a LinkedIn bio, I promise.
+- **[Research](/research)** — what I've written, what I'm reading, and the problems I keep coming back to.
+- **[Books](/books)** and **[Essays](/essays)** — what I read and write outside of research.
 
 [email](mailto:sungcho9@wharton.upenn.edu) · [github](https://github.com/sungycho) · [x](https://x.com/sungcholife) · [linkedin](https://linkedin.com/in/sungyuncho0912)
