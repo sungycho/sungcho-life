@@ -11,6 +11,7 @@ Born and raised in Seoul, Korea, I moved to the United States in 2023 to pursue 
 I'm an aspiring researcher, entrepreneur, investor, engineer, and educator. Feel free to explore my website to learn more about me and my work.
 
 Where to start:
+
 - **[Life Statement](/life-statement)** — how I think about life.
 - **[Memoir](/memoir)** — where I've been, told in chapters. More fun than a LinkedIn bio, I promise.
 - **[Research](/research)** — what I've written, what I'm reading, and the problems I keep coming back to.
