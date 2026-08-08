@@ -136,7 +136,7 @@ def scan_entries(content_subdir, url_prefix, lang):
             'title': meta.get('title', slug),
             'date': str(meta.get('date', '2026-01-01')),
             'description': meta.get('description', ''),
-            'url': f"{url_prefix}{slug}.html",
+            'url': f"{url_prefix}{slug}/",
             'arxiv': meta.get('arxiv', ''),
             'openreview': meta.get('openreview', ''),
         }
@@ -183,7 +183,7 @@ def build_life_timeline_html(entries, lang):
     """Generate HTML list of life period links for the about page."""
     prefix = '/kr/life/' if lang == 'kr' else '/life/'
     items = ''.join(
-        f'<li><a href="{prefix}{e["slug"]}.html">{e["title"]}</a></li>\n'
+        f'<li><a href="{prefix}{e["slug"]}/">{e["title"]}</a></li>\n'
         for e in entries
     )
     return f'<ul>\n{items}</ul>'
@@ -202,13 +202,13 @@ def build_lang(lang):
     for entry in life_entries:
         md_path = content_dir / 'life' / f"{entry['slug']}.md"
         meta, html_body = read_md(md_path)
-        out_file = out_root / 'life' / f"{entry['slug']}.html"
+        out_file = out_root / 'life' / entry['slug'] / 'index.html'
         render('essay.html', out_file,
                title=entry['date_range'],
                essay_title=entry['date_range'],
                content=html_body,
                lang=nav_lang,
-               page_slug=f"life/{entry['slug']}.html",
+               page_slug=f"life/{entry['slug']}/",
                show_lang_toggle=True,
                include_mathjax=False,
                include_accordion=False,
@@ -251,8 +251,8 @@ def build_lang(lang):
     for essay in essays:
         md_path = content_dir / 'essays' / f"{essay['slug']}.md"
         meta, html_body = read_md(md_path)
-        out_file = out_root / 'essays' / f"{essay['slug']}.html"
-        page_slug = f"essays/{essay['slug']}.html"
+        out_file = out_root / 'essays' / essay['slug'] / 'index.html'
+        page_slug = f"essays/{essay['slug']}/"
         essay_date = datetime.strptime(essay['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if essay.get('date') else ''
 
         render('essay.html', out_file,
@@ -274,8 +274,8 @@ def build_lang(lang):
     for paper in papers:
         md_path = content_dir / 'papers' / f"{paper['slug']}.md"
         meta, html_body = read_md(md_path)
-        out_file = out_root / 'papers' / f"{paper['slug']}.html"
-        page_slug = f"papers/{paper['slug']}.html"
+        out_file = out_root / 'papers' / paper['slug'] / 'index.html'
+        page_slug = f"papers/{paper['slug']}/"
         essay_date = datetime.strptime(paper['date'], '%Y-%m-%d').strftime('%B %-d, %Y') if paper.get('date') else ''
 
         render('essay.html', out_file,
@@ -328,12 +328,12 @@ def build_kr_essays():
     for entry in life_entries:
         md_path = content_dir / 'life' / f"{entry['slug']}.md"
         meta, html_body = read_md(md_path)
-        render('essay.html', out_root / 'life' / f"{entry['slug']}.html",
+        render('essay.html', out_root / 'life' / entry['slug'] / 'index.html',
                title=entry['date_range'],
                essay_title=entry['date_range'],
                content=html_body,
                lang='kr',
-               page_slug=f"life/{entry['slug']}.html",
+               page_slug=f"life/{entry['slug']}/",
                show_lang_toggle=True,
                include_mathjax=False,
                include_accordion=False,
@@ -345,7 +345,7 @@ def build_kr_essays():
     for essay in essays:
         md_path = content_dir / 'essays' / f"{essay['slug']}.md"
         meta, html_body = read_md(md_path)
-        out_file = out_root / 'essays' / f"{essay['slug']}.html"
+        out_file = out_root / 'essays' / essay['slug'] / 'index.html'
         essay_date = datetime.strptime(essay['date'], '%Y-%m-%d').strftime('%Y년 %-m월 %-d일') if essay.get('date') else ''
         render('essay.html', out_file,
                title=essay['title'],
@@ -353,7 +353,7 @@ def build_kr_essays():
                essay_date=essay_date,
                content=html_body,
                lang='kr',
-               page_slug=f"essays/{essay['slug']}.html",
+               page_slug=f"essays/{essay['slug']}/",
                show_lang_toggle=True,
                include_mathjax=False,
                include_accordion=False,
