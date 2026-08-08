@@ -210,7 +210,23 @@ def build_lang(lang):
                lang=nav_lang,
                page_slug=f"life/{entry['slug']}/",
                show_lang_toggle=True,
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
+               include_accordion=False,
+               custom_styles=None)
+
+    # ── Life statement (standalone page) ────────────────────────────────────
+    life_statement_path = content_dir / 'life-statement.md'
+    if life_statement_path.exists():
+        meta, html_body = read_md(life_statement_path)
+        title = meta.get('title', 'Life Statement')
+        render('essay.html', out_root / 'life-statement' / 'index.html',
+               title=title,
+               essay_title=title,
+               content=html_body,
+               lang=nav_lang,
+               page_slug='life-statement/',
+               show_lang_toggle=True,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
@@ -240,7 +256,7 @@ def build_lang(lang):
                lang=nav_lang,
                page_slug=page_slug,
                show_lang_toggle=(page == 'aphorism'),
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
@@ -263,7 +279,7 @@ def build_lang(lang):
                lang=nav_lang,
                page_slug=page_slug,
                show_lang_toggle=True,
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
@@ -286,7 +302,7 @@ def build_lang(lang):
                lang=nav_lang,
                page_slug=page_slug,
                show_lang_toggle=False,
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
@@ -335,7 +351,23 @@ def build_kr_essays():
                lang='kr',
                page_slug=f"life/{entry['slug']}/",
                show_lang_toggle=True,
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
+               include_accordion=False,
+               custom_styles=None)
+
+    # ── Korean life statement (standalone page) ───────────────────────────────
+    life_statement_path = content_dir / 'life-statement.md'
+    if life_statement_path.exists():
+        meta, html_body = read_md(life_statement_path)
+        title = meta.get('title', '인생관')
+        render('essay.html', out_root / 'life-statement' / 'index.html',
+               title=title,
+               essay_title=title,
+               content=html_body,
+               lang='kr',
+               page_slug='life-statement/',
+               show_lang_toggle=True,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
@@ -355,7 +387,7 @@ def build_kr_essays():
                lang='kr',
                page_slug=f"essays/{essay['slug']}/",
                show_lang_toggle=True,
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
@@ -371,7 +403,7 @@ def build_kr_essays():
                lang='kr',
                page_slug='aphorism.html',
                show_lang_toggle=True,
-               include_mathjax=False,
+               include_mathjax=meta.get('math', False),
                include_accordion=False,
                custom_styles=None)
 
